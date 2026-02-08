@@ -1,11 +1,11 @@
 baseURL: "https://isabel-mm.github.io/"
 languageCode: "es"
-title: "Isa (Isabel Moyano)"
+title: "Isabel Moyano"
 theme: "hugo-profile"
 enableRobotsTXT: true
 
 # Español como idioma por defecto en la raíz (/), inglés en /en/
-defaultContentLanguage: "es"
+defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
 
 languages:
@@ -14,17 +14,14 @@ languages:
     weight: 1
     contentDir: "content/es"
     params:
-      description: "Investigadora predoctoral en Lingüística. Lingüística computacional, terminología, estilometría y lingüística de corpus."
-      # Traducciones del navbar (esto evita tocar menus: y evita duplicados)
+      description: "Investigadora predoctoral FPU en el área de Lingüística general (Dpto. Filología) de la Universidad de Cádiz. Lingüística computacional, terminología, estilometría y lingüística de corpus."
       terms:
-        nav_about: "Sobre mí"
-        nav_experience: "Experiencia"
-        nav_education: "Formación"
-        nav_projects: "Proyectos"
-        nav_achievements: "Publicaciones"
-        nav_contact: "Contacto"
-        nav_blog: "Blog"
-        nav_gallery: "Galería"
+        nav_about: "sobre mí"
+        nav_achievements: "investigación"
+        nav_experience: "experiencia"
+        nav_education: "formación"
+        nav_projects: "proyectos"
+        nav_contact: "contacto"
 
   en:
     languageName: "English"
@@ -33,14 +30,12 @@ languages:
     params:
       description: "Predoctoral researcher in Linguistics. Computational linguistics, terminology, stylometry and corpus linguistics."
       terms:
-        nav_about: "About"
-        nav_experience: "Experience"
-        nav_education: "Education"
-        nav_projects: "Projects"
-        nav_achievements: "Publications"
-        nav_contact: "Contact"
-        nav_blog: "Blog"
-        nav_gallery: "Gallery"
+        nav_about: "about"
+        nav_achievements: "research"
+        nav_experience: "experience"
+        nav_education: "education"
+        nav_projects: "projects"
+        nav_contact: "contact"
 
 params:
   title: "Isabel Moyano"
@@ -151,3 +146,4 @@ params:
       enable: false
     socialNetworks:
       github: "https://github.com/isabel-mm"
+
