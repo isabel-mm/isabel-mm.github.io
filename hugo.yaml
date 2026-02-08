@@ -1,53 +1,162 @@
-name: Deploy Hugo site to Pages
+baseURL: "https://isabel-mm.github.io/"
+languageCode: "es"
+title: "Isa (Isabel Moyano)"
+theme: "hugo-profile"
 
-on:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
+enableRobotsTXT: true
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+# Si quieres SOLO español, deja solo 'es' y borra en/fr
+languages:
+  es:
+    languageName: "Español"
+    weight: 1
+    contentDir: "content/es"
+    params:
+      description: "Investigadora predoctoral en Lingüística. Lingüística computacional, terminología, estilometría y lingüística de corpus."
+  en:
+    languageName: "English"
+    weight: 2
+    contentDir: "content/en"
+    params:
+      description: "Predoctoral researcher in Linguistics. Computational linguistics, terminology, stylometry and corpus linguistics."
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+# Menú (quita Blog/Gallery si no los quieres)
+menus:
+  main:
+    - identifier: about
+      name: "Sobre mí"
+      url: "/#about"
+      weight: 1
+    - identifier: research
+      name: "Investigación"
+      url: "/#projects"
+      weight: 2
+    - identifier: publications
+      name: "Publicaciones"
+      url: "/#achievements"
+      weight: 3
+    - identifier: contact
+      name: "Contacto"
+      url: "/#contact"
+      weight: 4
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
+params:
+  title: "Isa (Isabel Moyano)"
+  favicon: "/fav.png"
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: "0.155.1"
-          extended: true
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "light"
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
+  # HERO
+  hero:
+    enable: true
+    intro: "Hola, soy"
+    title: "Isa (Isabel Moyano)"
+    subtitle: "Investigadora predoctoral en Lingüística"
+    content: "Trabajo en lingüística computacional con foco en terminología, extracción terminológica, estilometría y metodología de corpus."
+    image: "/images/me.png"   # cambia por tu foto cuando la subas a static/images/
+    button:
+      enable: true
+      name: "CV (PDF)"
+      url: "/cv.pdf"
+      download: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: "fab fa-github"
+          url: "https://github.com/isabel-mm"
+        # - icon: "fab fa-linkedin"
+        #   url: "https://www.linkedin.com/in/..."
+      customIcons:
+        # - icon: "/images/orcid.svg"
+        #   url: "https://orcid.org/..."
 
-      - name: Build
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+  # ABOUT
+  about:
+    enable: true
+    title: "Sobre mí"
+    content: |
+      Soy investigadora predoctoral en Lingüística. Mi trabajo se sitúa en la interfaz entre teoría lingüística y métodos computacionales, con especial interés en **terminología**, **extracción automática de términos**, **estilometría** y **lingüística de corpus**.
+      
+      Me interesan los enfoques reproducibles: diseño de corpus, anotación, evaluación y análisis cuantitativo con interpretación lingüística.
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
+    skills:
+      enable: true
+      title: "Líneas y herramientas"
+      items:
+        - "Terminología y extracción terminológica"
+        - "Lingüística de corpus"
+        - "Estilometría / atribución de autoría"
+        - "Python (NLP), spaCy, transformers"
+        - "Diseño de anotación y evaluación"
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+  # EXPERIENCE (si no quieres la sección, pon enable: false)
+  experience:
+    enable: false
+
+  # EDUCATION (pon tus datos reales o desactiva)
+  education:
+    enable: true
+    title: "Formación"
+    items:
+      - title: "Doctorado en Lingüística (en curso)"
+        school:
+          name: "Tu universidad"
+          url: ""
+        date: ""
+        content: "Tesis sobre terminología computacional con fundamento lingüístico teórico."
+      # - title: "Máster en ..."
+      #   school:
+      #     name: ""
+      #     url: ""
+      #   date: ""
+
+  # PROJECTS (úsalo como Investigación/Proyectos)
+  projects:
+    enable: true
+    title: "Investigación y proyectos"
+    items:
+      - title: "TECLA (librería de extracción terminológica)"
+        content: "Pipeline reproducible para extracción de candidatos, evaluación de representatividad terminológica y enfoques supervisados."
+        image: "/images/projects/profile.png"
+        featured:
+          name: "Repositorio"
+          link: "https://github.com/isabel-mm"
+        badges:
+          - "NLP"
+          - "Terminología"
+          - "Python"
+
+      - title: "Atribución de autoría / estilometría"
+        content: "Análisis cualitativo y cuantitativo de rasgos lingüísticos con métricas estilométricas para tareas forenses."
+        image: "/images/projects/profile2.jpg"
+        badges:
+          - "Estilometría"
+          - "Forense"
+
+  # ACHIEVEMENTS (úsalo como publicaciones / congresos / premios)
+  achievements:
+    enable: true
+    title: "Publicaciones y actividad académica"
+    items:
+      - title: "Publicación 1 (a completar)"
+        content: "Referencia breve + enlace."
+        url: ""
+      - title: "Congreso / ponencia (a completar)"
+        content: "Título, evento, año."
+        url: ""
+
+  # CONTACT
+  contact:
+    enable: true
+    title: "Contacto"
+    content: "Si quieres escribirme por colaboración, docencia o proyectos, aquí me tienes:"
+    email: "TU_EMAIL@ejemplo.com"
+    btnName: "Escríbeme"
+
+  footer:
+    recentPosts:
+      enable: false
+    socialNetworks:
+      github: "https://github.com/isabel-mm"
+      # linkedin: "https://linkedin.com/in/..."
