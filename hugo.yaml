@@ -1,13 +1,13 @@
 baseURL: "https://isabel-mm.github.io/"
 languageCode: "es"
-title: "Isabel Moyano"
+title: "Isa (Isabel Moyano)"
 theme: "hugo-profile"
-
 enableRobotsTXT: true
 
-############################
-# IDIOMAS
-############################
+# Español como idioma por defecto en la raíz (/), inglés en /en/
+defaultContentLanguage: "es"
+defaultContentLanguageInSubdir: false
+
 languages:
   es:
     languageName: "Español"
@@ -15,24 +15,16 @@ languages:
     contentDir: "content/es"
     params:
       description: "Investigadora predoctoral en Lingüística. Lingüística computacional, terminología, estilometría y lingüística de corpus."
-    menu:
-      main:
-        - identifier: about
-          name: "Sobre mí"
-          url: "/#about"
-          weight: 1
-        - identifier: projects
-          name: "Investigación"
-          url: "/#projects"
-          weight: 2
-        - identifier: publications
-          name: "Publicaciones"
-          url: "/#achievements"
-          weight: 3
-        - identifier: contact
-          name: "Contacto"
-          url: "/#contact"
-          weight: 4
+      # Traducciones del navbar (esto evita tocar menus: y evita duplicados)
+      terms:
+        nav_about: "Sobre mí"
+        nav_experience: "Experiencia"
+        nav_education: "Formación"
+        nav_projects: "Proyectos"
+        nav_achievements: "Publicaciones"
+        nav_contact: "Contacto"
+        nav_blog: "Blog"
+        nav_gallery: "Galería"
 
   en:
     languageName: "English"
@@ -40,28 +32,16 @@ languages:
     contentDir: "content/en"
     params:
       description: "Predoctoral researcher in Linguistics. Computational linguistics, terminology, stylometry and corpus linguistics."
-    menu:
-      main:
-        - identifier: about
-          name: "About"
-          url: "/en/#about"
-          weight: 1
-        - identifier: projects
-          name: "Research"
-          url: "/en/#projects"
-          weight: 2
-        - identifier: publications
-          name: "Publications"
-          url: "/en/#achievements"
-          weight: 3
-        - identifier: contact
-          name: "Contact"
-          url: "/en/#contact"
-          weight: 4
+      terms:
+        nav_about: "About"
+        nav_experience: "Experience"
+        nav_education: "Education"
+        nav_projects: "Projects"
+        nav_achievements: "Publications"
+        nav_contact: "Contact"
+        nav_blog: "Blog"
+        nav_gallery: "Gallery"
 
-############################
-# PARÁMETROS GENERALES
-############################
 params:
   title: "Isabel Moyano"
   favicon: "/fav.png"
@@ -70,15 +50,13 @@ params:
     disableThemeToggle: false
     defaultTheme: "light"
 
-############################
-# HERO
-############################
+  # HERO
   hero:
     enable: true
     intro: "Hola, soy"
     title: "Isabel Moyano"
     subtitle: "Investigadora predoctoral FPU en Lingüística"
-    content: "Trabajo en lingüística computacional con foco en terminología, extracción automática de términos, estilometría y metodología de corpus."
+    content: "Trabajo en lingüística computacional con foco en terminología, extracción terminológica, estilometría y metodología de corpus."
     image: "/images/me.png"
     button:
       enable: true
@@ -91,35 +69,29 @@ params:
           url: "https://github.com/isabel-mm"
       customIcons: []
 
-############################
-# ABOUT
-############################
+  # ABOUT
   about:
     enable: true
     title: "Sobre mí"
     content: |
       Soy investigadora predoctoral en Lingüística. Mi trabajo se sitúa en la interfaz entre teoría lingüística y métodos computacionales, con especial interés en **terminología**, **extracción automática de términos**, **estilometría** y **lingüística de corpus**.
 
-      Me interesan especialmente los enfoques reproducibles: diseño de corpus, anotación, evaluación y análisis cuantitativo con interpretación lingüística.
+      Me interesan los enfoques reproducibles: diseño de corpus, anotación, evaluación y análisis cuantitativo con interpretación lingüística.
     skills:
       enable: true
       title: "Líneas y herramientas"
       items:
         - "Terminología y extracción terminológica"
         - "Lingüística de corpus"
-        - "Estilometría y atribución de autoría"
+        - "Estilometría / atribución de autoría"
         - "Python (NLP), spaCy, transformers"
         - "Diseño de anotación y evaluación"
 
-############################
-# EXPERIENCE (DESACTIVADO)
-############################
+  # EXPERIENCE
   experience:
     enable: false
 
-############################
-# EDUCATION
-############################
+  # EDUCATION
   education:
     enable: true
     title: "Formación"
@@ -131,15 +103,13 @@ params:
         date: ""
         content: "Tesis sobre terminología computacional con fundamento lingüístico teórico."
 
-############################
-# PROJECTS / INVESTIGACIÓN
-############################
+  # PROJECTS
   projects:
     enable: true
     title: "Investigación y proyectos"
     items:
-      - title: "TECLA – librería de extracción terminológica"
-        content: "Pipeline reproducible para extracción de candidatos a término, evaluación de representatividad terminológica y enfoques supervisados."
+      - title: "TECLA (librería de extracción terminológica)"
+        content: "Pipeline reproducible para extracción de candidatos, evaluación de representatividad terminológica y enfoques supervisados."
         image: "/images/projects/profile.png"
         featured:
           name: "Repositorio"
@@ -149,30 +119,26 @@ params:
           - "Terminología"
           - "Python"
 
-      - title: "Atribución de autoría y estilometría"
-        content: "Análisis cualitativo y cuantitativo de rasgos lingüísticos con métricas estilométricas aplicadas a contextos forenses."
+      - title: "Atribución de autoría / estilometría"
+        content: "Análisis cualitativo y cuantitativo de rasgos lingüísticos con métricas estilométricas para tareas forenses."
         image: "/images/projects/profile2.jpg"
         badges:
           - "Estilometría"
-          - "Lingüística forense"
+          - "Forense"
 
-############################
-# PUBLICACIONES / ACTIVIDAD
-############################
+  # ACHIEVEMENTS (lo usamos como publicaciones)
   achievements:
     enable: true
     title: "Publicaciones y actividad académica"
     items:
-      - title: "Publicación (en preparación)"
-        content: "Artículo sobre extracción terminológica y representatividad de corpus."
+      - title: "Publicación 1 (a completar)"
+        content: "Referencia breve + enlace."
         url: ""
-      - title: "Congreso / ponencia"
-        content: "Comunicación en congreso internacional (a completar)."
+      - title: "Congreso / ponencia (a completar)"
+        content: "Título, evento, año."
         url: ""
 
-############################
-# CONTACTO
-############################
+  # CONTACT
   contact:
     enable: true
     title: "Contacto"
@@ -180,9 +146,6 @@ params:
     email: "TU_EMAIL@ejemplo.com"
     btnName: "Escríbeme"
 
-############################
-# FOOTER
-############################
   footer:
     recentPosts:
       enable: false
