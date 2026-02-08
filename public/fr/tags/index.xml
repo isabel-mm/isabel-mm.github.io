@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hugo Profile</title>
+    <link>http://localhost:1313/fr/tags/</link>
+    <description>Recent content in Tags on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exemple</title>
+      <link>http://localhost:1313/fr/tags/exemple/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/fr/tags/exemple/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathjax</title>
+      <link>http://localhost:1313/fr/tags/mathjax/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/fr/tags/mathjax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Syntaxe Markdown</title>
+      <link>http://localhost:1313/fr/tags/syntaxe-markdown/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/fr/tags/syntaxe-markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Échantillon</title>
+      <link>http://localhost:1313/fr/tags/%C3%A9chantillon/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/fr/tags/%C3%A9chantillon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Support Des Emoji</title>
+      <link>http://localhost:1313/fr/tags/support-des-emoji/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/fr/tags/support-des-emoji/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Texte De Remplissage</title>
+      <link>http://localhost:1313/fr/tags/texte-de-remplissage/</link>
+      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+      <guid>http://localhost:1313/fr/tags/texte-de-remplissage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contenu Enrichi</title>
+      <link>http://localhost:1313/fr/tags/contenu-enrichi/</link>
+      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/fr/tags/contenu-enrichi/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
