@@ -1,6 +1,6 @@
 baseURL: "https://isabel-mm.github.io/"
 languageCode: "es"
-title: "Isabel Moyano"
+title: "isabel-mm"
 theme: "hugo-profile"
 enableRobotsTXT: true
 
@@ -28,7 +28,7 @@ languages:
     weight: 2
     contentDir: "content/en"
     params:
-      description: "Predoctoral researcher in Linguistics. Computational linguistics, terminology, stylometry and corpus linguistics."
+      description: "PhD Fellow (FPU) in Linguistics. Computational linguistics, terminology, stylometry and corpus linguistics."
       terms:
         nav_about: "about"
         nav_achievements: "research"
@@ -49,7 +49,7 @@ params:
   hero:
     enable: true
     intro: "Hola, soy"
-    title: "Isabel Moyano"
+    title: "Isabel"
     subtitle: "Investigadora predoctoral FPU en Lingüística"
     content: "Trabajo en lingüística computacional con foco en terminología, extracción terminológica, estilometría y metodología de corpus."
     image: "/images/me.png"
@@ -146,4 +146,5 @@ params:
       enable: false
     socialNetworks:
       github: "https://github.com/isabel-mm"
+
 
