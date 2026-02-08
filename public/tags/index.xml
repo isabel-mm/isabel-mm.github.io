@@ -2,143 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hugo Profile</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://hugo-profile.netlify.app/tags/</link>
     <description>Recent content in Tags on Hugo Profile</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hugo-profile.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ejemplo</title>
-      <link>http://localhost:1313/tags/ejemplo/</link>
+      <link>https://hugo-profile.netlify.app/tags/ejemplo/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/ejemplo/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/ejemplo/</guid>
       <description></description>
     </item>
     <item>
       <title>Example</title>
-      <link>http://localhost:1313/tags/example/</link>
+      <link>https://hugo-profile.netlify.app/tags/example/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/example/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/example/</guid>
       <description></description>
     </item>
     <item>
       <title>Exemple</title>
-      <link>http://localhost:1313/tags/exemple/</link>
+      <link>https://hugo-profile.netlify.app/tags/exemple/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/exemple/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/exemple/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown Syntax</title>
-      <link>http://localhost:1313/tags/markdown-syntax/</link>
+      <link>https://hugo-profile.netlify.app/tags/markdown-syntax/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/markdown-syntax/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/markdown-syntax/</guid>
       <description></description>
     </item>
     <item>
       <title>Mathjax</title>
-      <link>http://localhost:1313/tags/mathjax/</link>
+      <link>https://hugo-profile.netlify.app/tags/mathjax/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/mathjax/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/mathjax/</guid>
       <description></description>
     </item>
     <item>
       <title>Sintaxis De Markdown</title>
-      <link>http://localhost:1313/tags/sintaxis-de-markdown/</link>
+      <link>https://hugo-profile.netlify.app/tags/sintaxis-de-markdown/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/sintaxis-de-markdown/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/sintaxis-de-markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Syntaxe Markdown</title>
-      <link>http://localhost:1313/tags/syntaxe-markdown/</link>
+      <link>https://hugo-profile.netlify.app/tags/syntaxe-markdown/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/syntaxe-markdown/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/syntaxe-markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Échantillon</title>
-      <link>http://localhost:1313/tags/%C3%A9chantillon/</link>
+      <link>https://hugo-profile.netlify.app/tags/%C3%A9chantillon/</link>
       <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/%C3%A9chantillon/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/%C3%A9chantillon/</guid>
       <description></description>
     </item>
     <item>
       <title>Muestra</title>
-      <link>http://localhost:1313/tags/muestra/</link>
+      <link>https://hugo-profile.netlify.app/tags/muestra/</link>
       <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/muestra/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/muestra/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample</title>
-      <link>http://localhost:1313/tags/sample/</link>
+      <link>https://hugo-profile.netlify.app/tags/sample/</link>
       <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/sample/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/sample/</guid>
       <description></description>
     </item>
     <item>
       <title>Emoji Support</title>
-      <link>http://localhost:1313/tags/emoji-support/</link>
+      <link>https://hugo-profile.netlify.app/tags/emoji-support/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/tags/emoji-support/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/emoji-support/</guid>
       <description></description>
     </item>
     <item>
       <title>Soporte De Emoji</title>
-      <link>http://localhost:1313/tags/soporte-de-emoji/</link>
+      <link>https://hugo-profile.netlify.app/tags/soporte-de-emoji/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/tags/soporte-de-emoji/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/soporte-de-emoji/</guid>
       <description></description>
     </item>
     <item>
       <title>Support Des Emoji</title>
-      <link>http://localhost:1313/tags/support-des-emoji/</link>
+      <link>https://hugo-profile.netlify.app/tags/support-des-emoji/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/tags/support-des-emoji/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/support-des-emoji/</guid>
       <description></description>
     </item>
     <item>
       <title>Placeholder Text</title>
-      <link>http://localhost:1313/tags/placeholder-text/</link>
+      <link>https://hugo-profile.netlify.app/tags/placeholder-text/</link>
       <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/tags/placeholder-text/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/placeholder-text/</guid>
       <description></description>
     </item>
     <item>
       <title>Texte De Remplissage</title>
-      <link>http://localhost:1313/tags/texte-de-remplissage/</link>
+      <link>https://hugo-profile.netlify.app/tags/texte-de-remplissage/</link>
       <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/tags/texte-de-remplissage/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/texte-de-remplissage/</guid>
       <description></description>
     </item>
     <item>
       <title>Texto De Relleno</title>
-      <link>http://localhost:1313/tags/texto-de-relleno/</link>
+      <link>https://hugo-profile.netlify.app/tags/texto-de-relleno/</link>
       <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/tags/texto-de-relleno/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/texto-de-relleno/</guid>
       <description></description>
     </item>
     <item>
       <title>Contenido Enriquecido</title>
-      <link>http://localhost:1313/tags/contenido-enriquecido/</link>
+      <link>https://hugo-profile.netlify.app/tags/contenido-enriquecido/</link>
       <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/contenido-enriquecido/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/contenido-enriquecido/</guid>
       <description></description>
     </item>
     <item>
       <title>Contenu Enrichi</title>
-      <link>http://localhost:1313/tags/contenu-enrichi/</link>
+      <link>https://hugo-profile.netlify.app/tags/contenu-enrichi/</link>
       <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/contenu-enrichi/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/contenu-enrichi/</guid>
       <description></description>
     </item>
     <item>
       <title>Rich Content</title>
-      <link>http://localhost:1313/tags/rich-content/</link>
+      <link>https://hugo-profile.netlify.app/tags/rich-content/</link>
       <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/rich-content/</guid>
+      <guid>https://hugo-profile.netlify.app/tags/rich-content/</guid>
       <description></description>
     </item>
   </channel>
