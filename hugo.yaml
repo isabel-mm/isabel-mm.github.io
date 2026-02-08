@@ -24,24 +24,20 @@ languages:
 menus:
   main:
     - identifier: about
-      name: "Sobre mí"
+      name: "sobre mí"
       url: "/#about"
       weight: 1
-    - identifier: research
-      name: "Investigación"
-      url: "/#projects"
-      weight: 2
     - identifier: publications
-      name: "Publicaciones"
+      name: "publicaciones"
       url: "/#achievements"
       weight: 3
     - identifier: contact
-      name: "Contacto"
+      name: "contacto"
       url: "/#contact"
       weight: 4
 
 params:
-  title: "Isa (Isabel Moyano)"
+  title: "Isabel Moyano"
   favicon: "/fav.png"
 
   theme:
@@ -52,8 +48,8 @@ params:
   hero:
     enable: true
     intro: "Hola, soy"
-    title: "Isa (Isabel Moyano)"
-    subtitle: "Investigadora predoctoral en Lingüística"
+    title: "Isabel Moyano"
+    subtitle: "Investigadora predoctoral FPU en Lingüística"
     content: "Trabajo en lingüística computacional con foco en terminología, extracción terminológica, estilometría y metodología de corpus."
     image: "/images/me.png"   # cambia por tu foto cuando la subas a static/images/
     button:
@@ -160,3 +156,4 @@ params:
     socialNetworks:
       github: "https://github.com/isabel-mm"
       # linkedin: "https://linkedin.com/in/..."
+
