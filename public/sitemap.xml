@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://hugo-profile.netlify.app/en/sitemap.xml</loc>
-    
-      <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://hugo-profile.netlify.app/es/sitemap.xml</loc>
-    
-      <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://hugo-profile.netlify.app/fr/sitemap.xml</loc>
-    
-      <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/research/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>

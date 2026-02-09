@@ -1,57 +1,39 @@
 baseURL: "https://isabel-mm.github.io/"
-languageCode: "es"
-title: "isabel-mm"
+languageCode: "en"
+title: "Isabel Moyano"
 theme: "hugo-profile"
 enableRobotsTXT: true
 
-# Español como idioma por defecto en la raíz (/), inglés en /en/
-defaultContentLanguage: "en"
-defaultContentLanguageInSubdir: false
-
-languages:
-  es:
-    languageName: "Español"
-    weight: 1
-    contentDir: "content/es"
-    params:
-      description: "Investigadora predoctoral FPU en el área de Lingüística general (Dpto. Filología) de la Universidad de Cádiz. Lingüística computacional, terminología, estilometría y lingüística de corpus."
-      terms:
-        nav_about: "sobre mí"
-        nav_achievements: "investigación"
-        nav_experience: "experiencia"
-        nav_education: "formación"
-        nav_projects: "proyectos"
-        nav_contact: "contacto"
-
-  en:
-    languageName: "English"
-    weight: 2
-    contentDir: "content/en"
-    params:
-      description: "PhD Fellow (FPU) in Linguistics. Computational linguistics, terminology, stylometry and corpus linguistics."
-      terms:
-        nav_about: "about"
-        nav_achievements: "research"
-        nav_experience: "experience"
-        nav_education: "education"
-        nav_projects: "projects"
-        nav_contact: "contact"
+menu:
+  main:
+    - identifier: about
+      name: "about"
+      url: "/#about"
+      weight: 1
+    - identifier: research
+      name: "research"
+      url: "/#research"
+      weight: 2
+    - identifier: contact
+      name: "contact"
+      url: "/#contact"
+      weight: 3
 
 params:
   title: "Isabel Moyano"
+  description: "PhD Fellow (FPU) in Linguistics. Computational linguistics, terminology, stylometry and corpus linguistics."
   favicon: "/fav.png"
 
   theme:
     disableThemeToggle: false
     defaultTheme: "light"
 
-  # HERO
   hero:
     enable: true
-    intro: "Hola, soy"
+    intro: "Hi, I’m"
     title: "Isabel"
-    subtitle: "Investigadora predoctoral FPU en Lingüística"
-    content: "Trabajo en lingüística computacional con foco en terminología, extracción terminológica, estilometría y metodología de corpus."
+    subtitle: "PhD Fellow (FPU) in Linguistics"
+    content: "I work in computational linguistics with a focus on terminology, automatic term extraction, stylometry, and corpus-based methodology."
     image: "/images/me.png"
     button:
       enable: true
@@ -64,87 +46,71 @@ params:
           url: "https://github.com/isabel-mm"
       customIcons: []
 
-  # ABOUT
   about:
     enable: true
-    title: "Sobre mí"
+    title: "About me"
     content: |
-      Soy investigadora predoctoral en Lingüística. Mi trabajo se sitúa en la interfaz entre teoría lingüística y métodos computacionales, con especial interés en **terminología**, **extracción automática de términos**, **estilometría** y **lingüística de corpus**.
+      I am a predoctoral researcher in Linguistics. My work lies at the interface between linguistic theory and computational methods, with a particular interest in **terminology**, **automatic term extraction**, **stylometry**, and **corpus linguistics**.
 
-      Me interesan los enfoques reproducibles: diseño de corpus, anotación, evaluación y análisis cuantitativo con interpretación lingüística.
+      I value reproducible research workflows: corpus design, annotation, evaluation, and quantitative analysis with linguistic interpretation.
     skills:
       enable: true
-      title: "Líneas y herramientas"
+      title: "Research areas & tools"
       items:
-        - "Terminología y extracción terminológica"
-        - "Lingüística de corpus"
-        - "Estilometría / atribución de autoría"
+        - "Terminology and automatic term extraction"
+        - "Corpus linguistics"
+        - "Stylometry / authorship attribution"
         - "Python (NLP), spaCy, transformers"
-        - "Diseño de anotación y evaluación"
+        - "Annotation design and evaluation"
 
-  # EXPERIENCE
   experience:
     enable: false
 
-  # EDUCATION
   education:
     enable: true
-    title: "Formación"
+    title: "Education"
     items:
-      - title: "Doctorado en Lingüística (en curso)"
+      - title: "PhD in Linguistics (ongoing)"
         school:
-          name: "Tu universidad"
+          name: "University of Cádiz"
           url: ""
         date: ""
-        content: "Tesis sobre terminología computacional con fundamento lingüístico teórico."
+        content: "Dissertation on computational terminology with a strong theoretical linguistic foundation."
 
-  # PROJECTS
   projects:
     enable: true
-    title: "Investigación y proyectos"
+    title: "Research & projects"
     items:
-      - title: "TECLA (librería de extracción terminológica)"
-        content: "Pipeline reproducible para extracción de candidatos, evaluación de representatividad terminológica y enfoques supervisados."
+      - title: "TECLA (term extraction library)"
+        content: "A reproducible pipeline for candidate extraction, terminological representativeness evaluation, and supervised approaches."
         image: "/images/projects/profile.png"
         featured:
-          name: "Repositorio"
+          name: "Repository"
           link: "https://github.com/isabel-mm"
         badges:
           - "NLP"
-          - "Terminología"
+          - "Terminology"
           - "Python"
 
-      - title: "Atribución de autoría / estilometría"
-        content: "Análisis cualitativo y cuantitativo de rasgos lingüísticos con métricas estilométricas para tareas forenses."
+      - title: "Authorship attribution / stylometry"
+        content: "Qualitative and quantitative analysis of linguistic features using stylometric metrics for forensic-oriented tasks."
         image: "/images/projects/profile2.jpg"
         badges:
-          - "Estilometría"
-          - "Forense"
+          - "Stylometry"
+          - "Forensic linguistics"
 
-  # ACHIEVEMENTS (lo usamos como publicaciones)
   achievements:
-    enable: true
-    title: "Publicaciones y actividad académica"
-    items:
-      - title: "Publicación 1 (a completar)"
-        content: "Referencia breve + enlace."
-        url: ""
-      - title: "Congreso / ponencia (a completar)"
-        content: "Título, evento, año."
-        url: ""
+    enable: false
 
-  # CONTACT
   contact:
     enable: true
-    title: "Contacto"
-    content: "Si quieres escribirme por colaboración, docencia o proyectos, aquí me tienes:"
-    email: "TU_EMAIL@ejemplo.com"
-    btnName: "Escríbeme"
+    title: "Contact"
+    content: "For collaborations, teaching, or research projects:"
+    email: "isabel.moyano@uca.es"
+    btnName: "Email me"
 
   footer:
     recentPosts:
       enable: false
     socialNetworks:
       github: "https://github.com/isabel-mm"
-
-
