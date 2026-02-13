@@ -3,6 +3,34 @@ sections:
 - id: journal_articles
   title: Journal articles
   items:
+  - id: moyano2027robot
+    type: paper
+    year: accepted, in press
+    authors: Bernal Ortiz, Francisco; Moyano Moreno, Isabel; Crespo Miguel, Mario
+    title: 'Machine–Generated vs. Human Texts: A Hybrid Approach to Forensic Feature Based Text Classificationc'
+    venue: 'International Journal of Interactive Multimedia and Artificial Intelligence'
+    issue: 'TBD'
+    number: 'TBD'
+    pages: TBD
+    tags:
+    - Stylometry
+    - Forensic Linguistics
+    - Machine Learning
+
+  - id: moyano2027rilce
+    type: paper
+    year: accepted, in press
+    authors: Moyano Moreno, Isabel
+    title: 'Extracción automática de terminología lingüística basada en un modelo de Reconocimiento de Entidades Nombradas (NER) para la construcción de un tesauro de lingüística'
+    venue: 'RILCE: Revista de Filología Hispánica'
+    issue: '42'
+    number: '3'
+    pages: TBD
+    tags:
+    - Terminology
+    - Computational Linguistics
+    - Named Entity Recognition
+
   - id: moyano2026resena
     type: review
     year: 2026
