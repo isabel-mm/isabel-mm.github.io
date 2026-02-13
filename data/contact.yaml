@@ -1,0 +1,31 @@
+items:
+  - label: "Email"
+    value: "isabel.moyano@uca.es"
+    href: "mailto:isabel.moyano@uca.es"
+    icon: "mail"
+
+  - label: "Affiliation"
+    value: University of Cádiz
+    href: "https://www.uca.es/"
+    icon: "building"
+
+  - label: "GitHub"
+    value: "@isabel-mm"
+    href: "https://github.com/isabel-mm"
+    icon: "github"
+
+  - label: "LinkedIn"
+    value: "Isabel Moyano Moreno"
+    href: "https://www.linkedin.com/in/isabel-moyano-moreno-62619a1bb/"
+    icon: "linkedin"
+
+  - label: "Google Scholar"
+    value: "Isabel Moyano Moreno"
+    href: "https://scholar.google.com/citations?user=B9Q0w-kAAAAJ&hl=es&oi=ao"
+    icon: "scholar"
+
+  - label: "ORCID"
+    value: "0000-0003-4284-8897"
+    href: "https://orcid.org/0000-0003-4284-8897"
+    icon: "orcid"
+

@@ -6,111 +6,29 @@ enableRobotsTXT: true
 
 menu:
   main:
-    - identifier: about
-      name: "about"
-      url: "/#about"
-      weight: 1
+    - identifier: Home
+      name: "Home"
+      url: "/"
+      weight: 10
     - identifier: research
-      name: "research"
-      url: "/#research"
-      weight: 2
+      name: "Research"
+      url: "/research/"
+      weight: 20
+    - identifier: resources-tools
+      name: "Resources & tools"
+      url: "/resources-tools/"
+      weight: 30
     - identifier: contact
-      name: "contact"
-      url: "/#contact"
-      weight: 3
+      name: "Contact"
+      url: "/contact/"
+      weight: 40
 
 params:
-  title: "Isabel Moyano"
   description: "PhD Fellow (FPU) in Linguistics. Computational linguistics, terminology, stylometry and corpus linguistics."
-  favicon: "/fav.png"
+
+  Logo:
+    logoText: "Isabel Moyano"
 
   theme:
     disableThemeToggle: false
     defaultTheme: "light"
-
-  hero:
-    enable: true
-    intro: "Hi, I’m"
-    title: "Isabel"
-    subtitle: "PhD Fellow (FPU) in Linguistics"
-    content: "I work in computational linguistics with a focus on terminology, automatic term extraction, stylometry, and corpus-based methodology."
-    image: "/images/me.png"
-    button:
-      enable: true
-      name: "CV (PDF)"
-      url: "/cv.pdf"
-      download: true
-    socialLinks:
-      fontAwesomeIcons:
-        - icon: "fab fa-github"
-          url: "https://github.com/isabel-mm"
-      customIcons: []
-
-  about:
-    enable: true
-    title: "About me"
-    content: |
-      I am a predoctoral researcher in Linguistics. My work lies at the interface between linguistic theory and computational methods, with a particular interest in **terminology**, **automatic term extraction**, **stylometry**, and **corpus linguistics**.
-
-      I value reproducible research workflows: corpus design, annotation, evaluation, and quantitative analysis with linguistic interpretation.
-    skills:
-      enable: true
-      title: "Research areas & tools"
-      items:
-        - "Terminology and automatic term extraction"
-        - "Corpus linguistics"
-        - "Stylometry / authorship attribution"
-        - "Python (NLP), spaCy, transformers"
-        - "Annotation design and evaluation"
-
-  experience:
-    enable: false
-
-  education:
-    enable: true
-    title: "Education"
-    items:
-      - title: "PhD in Linguistics (ongoing)"
-        school:
-          name: "University of Cádiz"
-          url: ""
-        date: ""
-        content: "Dissertation on computational terminology with a strong theoretical linguistic foundation."
-
-  projects:
-    enable: true
-    title: "Research & projects"
-    items:
-      - title: "TECLA (term extraction library)"
-        content: "A reproducible pipeline for candidate extraction, terminological representativeness evaluation, and supervised approaches."
-        image: "/images/projects/profile.png"
-        featured:
-          name: "Repository"
-          link: "https://github.com/isabel-mm"
-        badges:
-          - "NLP"
-          - "Terminology"
-          - "Python"
-
-      - title: "Authorship attribution / stylometry"
-        content: "Qualitative and quantitative analysis of linguistic features using stylometric metrics for forensic-oriented tasks."
-        image: "/images/projects/profile2.jpg"
-        badges:
-          - "Stylometry"
-          - "Forensic linguistics"
-
-  achievements:
-    enable: false
-
-  contact:
-    enable: true
-    title: "Contact"
-    content: "For collaborations, teaching, or research projects:"
-    email: "isabel.moyano@uca.es"
-    btnName: "Email me"
-
-  footer:
-    recentPosts:
-      enable: false
-    socialNetworks:
-      github: "https://github.com/isabel-mm"

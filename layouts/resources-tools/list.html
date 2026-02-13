@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+{{ with .Content }}
+  <div class="section-intro">
+    {{ . }}
+  </div>
+{{ end }}
+
+{{ $pages := .RegularPages }}
+{{ range sort $pages "Params.year" "desc" }}
+  <div class="card">
+    <div class="card__header">
+      <h2 class="card__title">{{ .Title }}</h2>
+      {{ with .Params.year }}
+        <span class="card__year">{{ . }}</span>
+      {{ end }}
+    </div>
+
+    {{ with .Params.description }}
+      <p class="card__desc">{{ . }}</p>
+    {{ end }}
+
+    {{ with .Params.tags }}
+      <div class="card__tags">
+        {{ range . }}
+          <span class="tag">{{ . }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ with .Params.link }}
+      <p class="card__links">
+        <a href="{{ . }}" target="_blank" rel="noopener">Link →</a>
+      </p>
+    {{ end }}
+  </div>
+{{ end }}
+
+{{ end }}

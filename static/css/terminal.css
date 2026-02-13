@@ -385,3 +385,266 @@ th,
 button {
   font-weight: 600;
 }
+
+.content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+  .content {
+    max-width: 950px; /* o 1000px, a gusto */
+  }
+}
+
+/* Center the main wrapper used by Hugo Terminal theme */
+body > div {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.social-links {
+  margin-bottom: 0.75rem;
+}
+
+.social-links a {
+  margin-right: 1rem;
+  font-weight: 600;
+}
+
+.card {
+  border: 2px solid var(--accent);
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.card__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card__title {
+  margin: 0;
+}
+
+.card__year {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.card__desc {
+  margin: 1rem 0 1.25rem 0;
+}
+
+.card__tags {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0 0 1.25rem 0;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  border: 2px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  font-weight: 600;
+}
+
+.card__links {
+  margin: 0;
+}
+
+/* Active menu item */
+.menu__inner a.active,
+.menu__inner li.active a,
+nav a[aria-current="page"] {
+  font-weight: 600;
+  border: 2px solid var(--accent);
+  padding: 0.15rem 0.45rem;
+  text-decoration: none;
+}
+
+.navigation-menu__inner a {
+  border: 2px solid transparent;
+  padding: 0.15rem 0.45rem;
+  text-decoration: none;
+}
+
+.navigation-menu__inner a.is-active {
+  font-weight: 600;
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+/* --- CONTACT GRID --- */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.8rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* --- CARD --- */
+.contact-card {
+  border: 2px solid var(--accent);
+  padding: 1.8rem 2rem;
+  display: flex;
+  align-items: center;  /* icon aligned with label */
+  gap: 1.5rem;
+}
+
+/* --- ICON --- */
+.contact-card__icon {
+  flex-shrink: 0;
+  margin-top: 0.2rem; /* micro alignment tweak */
+}
+
+.contact-card__icon i {
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+/* --- BODY --- */
+.contact-card__body {
+  flex: 1;
+}
+
+/* --- LABEL --- */
+.contact-card__label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+/* --- VALUE --- */
+.contact-card__value {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Links bold */
+.contact-card__value a {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--foreground);
+}
+
+.contact-card__value a:hover {
+  color: var(--accent);
+}
+
+/* =========================
+   HOME INTRO
+   ========================= */
+
+/* Shield against theme weirdness */
+.home-intro,
+.home-intro * {
+  writing-mode: horizontal-tb !important;
+  text-orientation: mixed !important;
+  transform: none !important;
+}
+
+.home-intro {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 2rem 0 3rem;
+}
+
+/* Foto */
+.profile-photo {
+  width: 240px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  border: 2px solid var(--accent);   /* borde más fino */
+  object-fit: cover;
+  object-position: center 35%;
+  transform: scale(1.15);            /* zoom */
+  display: block;
+  flex-shrink: 0;
+}
+
+/* Texto */
+.home-text {
+  flex: 1;
+  max-width: 650px;
+}
+
+.home-text p,
+.home-text h1,
+.home-text h2,
+.home-text h3 {
+  margin-top: 0;
+}
+
+.home-text p {
+  margin-bottom: 0.65rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.home-name {
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.home-role {
+  font-weight: 700; /* role en negrita */
+  margin-bottom: 0.3rem;
+}
+
+.home-group {
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.45;
+  line-height: 0.5;
+  margin: 0.25rem 0;
+  margin-bottom: 0.3rem;
+}
+
+.home-group em {
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-photo {
+    width: 180px;
+  }
+
+  .home-text {
+    max-width: 100%;
+  }
+}

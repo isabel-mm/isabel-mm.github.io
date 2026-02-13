@@ -1,0 +1,61 @@
+<nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    {{ $current := strings.TrimSuffix "/" $.RelPermalink }}
+
+    {{ if or $.Site.Params.showMenuItems ( eq .Site.Params.showMenuItems 0 ) }}
+      {{ range first $.Site.Params.showMenuItems $.Site.Menus.main }}
+        {{ if not .HasChildren }}
+          {{ $item := strings.TrimSuffix "/" .URL }}
+          {{ $isActive := or (eq $item $current) ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+          <li>
+            <a href="{{ .URL }}"
+               class="{{ if $isActive }}is-active{{ end }}"
+               {{ if .Params.NewTab -}} target="_blank" rel="noopener" {{- end }}>
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+
+      {{ if gt (len $.Site.Menus.main) $.Site.Params.showMenuItems }}
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">{{ $.Site.Params.menuMore }}&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                {{ range last (sub (len $.Site.Menus.main) $.Site.Params.showMenuItems) $.Site.Menus.main }}
+                  {{ if not .HasChildren }}
+                    {{ $item := strings.TrimSuffix "/" .URL }}
+                    {{ $isActive := or (eq $item $current) ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+                    <li>
+                      <a href="{{ .URL }}"
+                         class="{{ if $isActive }}is-active{{ end }}"
+                         {{ if .Params.NewTab -}} target="_blank" rel="noopener" {{- end }}>
+                        {{ .Name }}
+                      </a>
+                    </li>
+                  {{ end }}
+                {{ end }}
+              </ul>
+            </li>
+          </ul>
+        </li>
+      {{ end }}
+
+    {{ else }}
+      {{ range $.Site.Menus.main }}
+        {{ if not .HasChildren }}
+          {{ $item := strings.TrimSuffix "/" .URL }}
+          {{ $isActive := or (eq $item $current) ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+          <li>
+            <a href="{{ .URL }}"
+               class="{{ if $isActive }}is-active{{ end }}"
+               {{ if .Params.NewTab -}} target="_blank" rel="noopener" {{- end }}>
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
