@@ -1,7 +1,7 @@
 baseURL: "https://isabel-mm.github.io/"
 languageCode: "en"
 title: "Isabel Moyano"
-theme: "hugo-profile"
+theme: "terminal"
 enableRobotsTXT: true
 
 menu:
