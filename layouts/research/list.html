@@ -1,0 +1,67 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ with .Content }}
+  <div class="section-intro">
+    {{ . }}
+  </div>
+{{ end }}
+
+{{ $data := site.Data.research }}
+
+{{ range $data.sections }}
+  <section class="research-section">
+    <h2>{{ .title }}</h2>
+
+    {{ range sort .items "year" "desc" }}
+      {{ $doi := .doi }}
+      {{ $url := .url }}
+
+      <div class="pub-item">
+
+        <div class="pub-header">
+          {{ with .year }}<span class="pub-year">{{ . }}</span>{{ end }}
+          {{ with .type }}<span class="pub-type">{{ . }}</span>{{ end }}
+        </div>
+
+        {{ with .title }}
+          <div class="pub-title">{{ . }}</div>
+        {{ end }}
+
+        {{ with .authors }}
+          <div class="pub-authors">{{ . }}</div>
+        {{ end }}
+
+        {{ with .venue }}
+          <div class="pub-venue">{{ . }}</div>
+        {{ end }}
+
+        {{ with .tags }}
+            <div class="pub-tags">
+                {{ range . }}
+                <span class="pub-tag">{{ . }}</span>
+                {{ end }}
+            </div>
+        {{ end }}
+
+
+        {{ if or $doi $url }}
+          <div class="pub-links">
+            {{ with $doi }}
+              <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener"><strong>DOI</strong> →</a>
+            {{ end }}
+
+            {{ if and $url (not $doi) }}
+              <a href="{{ $url }}" target="_blank" rel="noopener"><strong>Link</strong> →</a>
+            {{ end }}
+          </div>
+        {{ end }}
+
+      </div>
+    {{ end }}
+
+  </section>
+{{ end }}
+
+{{ end }}
