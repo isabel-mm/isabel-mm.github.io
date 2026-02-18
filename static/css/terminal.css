@@ -725,7 +725,7 @@ nav a[aria-current="page"] {
 /* --- Mobile menu typography fix --- */
 
 .menu--mobile .menu__dropdown a {
-  font-size: 0.5rem;        /* más pequeño */
+  font-size: 0.7rem;        /* más pequeño */
   line-height: 1.4;
   word-break: normal;       /* no partir palabras arbitrariamente */
   overflow-wrap: normal;    /* evita "Rese-arch" */

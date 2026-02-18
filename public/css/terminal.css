@@ -721,3 +721,16 @@ nav a[aria-current="page"] {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
+
+/* --- Mobile menu typography fix --- */
+
+.menu--mobile .menu__dropdown a {
+  font-size: 0.7rem;        /* más pequeño */
+  line-height: 1.4;
+  word-break: normal;       /* no partir palabras arbitrariamente */
+  overflow-wrap: normal;    /* evita "Rese-arch" */
+}
+
+.menu--mobile .menu__dropdown li {
+  margin-bottom: 0.5rem;
+}
