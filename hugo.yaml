@@ -6,7 +6,7 @@ enableRobotsTXT: true
 
 menu:
   main:
-    - identifier: Home
+    - identifier: home
       name: "Home"
       url: "/"
       weight: 10
@@ -14,6 +14,10 @@ menu:
       name: "Research"
       url: "/research/"
       weight: 20
+    - identifier: projects
+      name: "Projects"
+      url: "/projects/"
+      weight: 25
     - identifier: resources-tools
       name: "Resources & tools"
       url: "/resources-tools/"
@@ -25,10 +29,13 @@ menu:
 
 params:
   description: "PhD Fellow (FPU) in Linguistics. Computational linguistics, terminology, stylometry and corpus linguistics."
-
-  Logo:
+  logo:
     logoText: "Isabel Moyano"
-
   theme:
     disableThemeToggle: false
     defaultTheme: "light"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

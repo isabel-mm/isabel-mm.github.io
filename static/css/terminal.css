@@ -734,3 +734,39 @@ nav a[aria-current="page"] {
 .menu--mobile .menu__dropdown li {
   margin-bottom: 0.5rem;
 }
+
+/* =========================
+   PROJECTS SECTION
+   ========================= */
+
+.page-projects .post-title {
+  display: none;
+}
+
+.projects-page ~ h1,
+h1 ~ .projects-page {
+  display: none;
+}
+
+.project-title-es {
+  font-size: 0.95rem;
+  opacity: 0.7;
+  margin-bottom: 0.2rem;
+}
+
+.project-title-en {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.project-meta {
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+h1:has(+ .projects-page),
+.projects-page h1 {
+  display: none;
+}

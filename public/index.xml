@@ -28,5 +28,12 @@
       <guid>http://localhost:1313/resources-tools/lingcomp-qa/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;div class=&#34;section-intro&#34;&gt;&#xA;Research projects I&#39;m currently involved in.&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;card&#34;&gt;&#xA;  &lt;div class=&#34;card__header&#34;&gt;&#xA;    &lt;h2 class=&#34;card__title&#34;&gt;TerlexWeb&lt;/h2&gt;&#xA;    &lt;span class=&#34;card__year&#34;&gt;2023–2027&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;p class=&#34;card__desc&#34;&gt;Aplicaciones de la lingüística digital al ámbito de la terminología: la creación de un léxico relacional bilingüe de los usos terminológicos de la semántica léxica.&lt;br&gt;&lt;em&gt;Digital linguistics applications in terminology: building a bilingual relational lexicon of terminological uses in lexical semantics.&lt;/em&gt;&lt;/p&gt;&#xA;  &lt;div class=&#34;card__tags&#34;&gt;&#xA;    &lt;span class=&#34;tag&#34;&gt;terminology&lt;/span&gt;&#xA;    &lt;span class=&#34;tag&#34;&gt;lexicology&lt;/span&gt;&#xA;    &lt;span class=&#34;tag&#34;&gt;digital humanities&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;p class=&#34;card__links&#34;&gt;PI: Miguel Casas Gómez · Ministerio de Ciencia e Innovación&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;card&#34;&gt;&#xA;  &lt;div class=&#34;card__header&#34;&gt;&#xA;    &lt;h2 class=&#34;card__title&#34;&gt;ROBOT-TALK&lt;/h2&gt;&#xA;    &lt;span class=&#34;card__year&#34;&gt;2023–2026&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;p class=&#34;card__desc&#34;&gt;Reconocimiento del origen robótico de textos. Automatización de tareas y conocimiento lingüístico.&lt;br&gt;&lt;em&gt;Recognising the robotic origin of texts. Task automation and linguistic knowledge.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -18,6 +18,8 @@
   </url><url>
     <loc>http://localhost:1313/tags/nlp/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
     <loc>http://localhost:1313/research/</loc>
   </url><url>
     <loc>http://localhost:1313/resources-tools/</loc>
