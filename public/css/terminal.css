@@ -796,3 +796,17 @@ h1:has(+ .projects-page),
 .projects-page h1 {
   display: none;
 }
+
+.cv-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.4rem 1rem;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cv-link:hover {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+}
