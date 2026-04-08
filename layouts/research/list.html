@@ -31,9 +31,13 @@
           <div class="pub-authors">{{ . }}</div>
         {{ end }}
 
-        {{ with .venue }}
-          <div class="pub-venue">{{ . }}</div>
-        {{ end }}
+        <div class="pub-venue">
+          {{ .venue }}
+          {{ with .volume }}, <strong>{{ . }}</strong>{{ end }}
+          {{ with .number }} ({{ . }}){{ end }}
+          {{ with .pages }}, {{ . }}{{ end }}
+          {{ with .publisher }} · {{ . }}{{ end }}
+        </div>
 
         {{ with .tags }}
             <div class="pub-tags">

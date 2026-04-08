@@ -1,0 +1,20 @@
+{{/* shortcode: research.html - listado con filtros */}}
+
+{{ $filterType := .Get "type" }}
+{{ $filterYear := .Get "year" }}
+
+{{ range .Site.Data.research.sections }}
+  <h2>{{ .title }}</h2>
+  <ul>
+    {{ range .items }}
+      {{ if (and (or (not $filterType) (eq .type $filterType))
+                 (or (not $filterYear) (eq (printf "%s" .year) $filterYear))) }}
+        <li>
+          <strong>{{ .title }}</strong> – {{ .authors }} ({{ .year }})<br/>
+          <em>{{ .venue }}</em>{{ with .volume }}, Vol. {{ . }}{{ end }}{{ with .issue }}, Issue {{ . }}{{ end }}<br/>
+          {{ if .url }}<a href="{{ .url }}">Enlace</a>{{ end }}
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ end }}
