@@ -1,13 +1,29 @@
 sections:
 
+
 - id: journal_articles
   title: Journal articles
   items:
+
+  - id: moyano2027IAA
+    type: paper
+    year: accepted, in press
+    authors: Moyano Moreno, Isabel
+    title: 'Defining the Boundaries of Specialised Language: Inter-Annotator (Dis)Agreement in Terminological Annotation'
+    venue: 'Revista de Lenguas para Fines Específicos'
+    issue: '32'
+    number: 'TBD'
+    pages: TBD
+    tags:
+    - Terminology
+    - Corpus Linguistics
+    - Language for Specific Purposes
+
   - id: moyano2027robot
     type: paper
     year: accepted, in press
     authors: Bernal Ortiz, Francisco; Moyano Moreno, Isabel; Crespo Miguel, Mario
-    title: 'Machine–Generated vs. Human Texts: A Hybrid Approach to Forensic Feature Based Text Classificationc'
+    title: 'Machine–Generated vs. Human Texts: A Hybrid Approach to Forensic Feature Based Text Classification'
     venue: 'International Journal of Interactive Multimedia and Artificial Intelligence'
     issue: 'TBD'
     number: 'TBD'
@@ -194,7 +210,7 @@ sections:
     type: Tool
     year: 2026
     authors: Moyano Moreno, Isabel
-    title: 'IS-A-BUILDER: conversos de texto a datos estructurados'
+    title: 'IS-A-BUILDER: conversor de texto a datos estructurados'
     doi: https://doi.org/10.5281/zenodo.18494399
   - id: zamora2024lingcomp_qa
     type: Dataset
