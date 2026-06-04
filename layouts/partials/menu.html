@@ -5,13 +5,14 @@
     {{ if or $.Site.Params.showMenuItems ( eq .Site.Params.showMenuItems 0 ) }}
       {{ range first $.Site.Params.showMenuItems $.Site.Menus.main }}
         {{ if not .HasChildren }}
-          {{ $item := strings.TrimSuffix "/" .URL }}
+          {{ $url := .URL | relLangURL }}
+          {{ $item := strings.TrimSuffix "/" $url }}
           {{ $isActive := or (eq $item $current) ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
           <li>
-            <a href="{{ .URL }}"
+            <a href="{{ $url }}"
                class="{{ if $isActive }}is-active{{ end }}"
                {{ if .Params.NewTab -}} target="_blank" rel="noopener" {{- end }}>
-              {{ .Name }}
+              {{ i18n .Identifier | default .Name }}
             </a>
           </li>
         {{ end }}
@@ -25,13 +26,14 @@
               <ul class="menu__dropdown">
                 {{ range last (sub (len $.Site.Menus.main) $.Site.Params.showMenuItems) $.Site.Menus.main }}
                   {{ if not .HasChildren }}
-                    {{ $item := strings.TrimSuffix "/" .URL }}
+                    {{ $url := .URL | relLangURL }}
+                    {{ $item := strings.TrimSuffix "/" $url }}
                     {{ $isActive := or (eq $item $current) ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
                     <li>
-                      <a href="{{ .URL }}"
+                      <a href="{{ $url }}"
                          class="{{ if $isActive }}is-active{{ end }}"
                          {{ if .Params.NewTab -}} target="_blank" rel="noopener" {{- end }}>
-                        {{ .Name }}
+                        {{ i18n .Identifier | default .Name }}
                       </a>
                     </li>
                   {{ end }}
@@ -45,17 +47,19 @@
     {{ else }}
       {{ range $.Site.Menus.main }}
         {{ if not .HasChildren }}
-          {{ $item := strings.TrimSuffix "/" .URL }}
+          {{ $url := .URL | relLangURL }}
+          {{ $item := strings.TrimSuffix "/" $url }}
           {{ $isActive := or (eq $item $current) ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
           <li>
-            <a href="{{ .URL }}"
+            <a href="{{ $url }}"
                class="{{ if $isActive }}is-active{{ end }}"
                {{ if .Params.NewTab -}} target="_blank" rel="noopener" {{- end }}>
-              {{ .Name }}
+              {{ i18n .Identifier | default .Name }}
             </a>
           </li>
         {{ end }}
       {{ end }}
     {{ end }}
+
   </ul>
 </nav>

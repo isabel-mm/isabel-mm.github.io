@@ -1,0 +1,185 @@
+items:
+
+  - id: c22
+    year: 2025
+    authors: Moyano Moreno, Isabel; Bernal Ortiz, Francisco
+    title: 'Terminología y modelos generativos del lenguaje: evaluación en tareas de extracción automática'
+    venue: 'XXIV Jornada AETER: Terminología y Lexicografía'
+    location: 'Cádiz, Spain'
+    tags: [Terminology, NLP, LLM]
+
+  - id: c21
+    year: 2025
+    authors: Moyano Moreno, Isabel
+    title: '¿Qué es un término? Un estudio sobre el (des)acuerdo en la anotación de corpus técnicos'
+    venue: 'XXXIX Congreso Internacional de la Asociación de Jóvenes Lingüistas (AJL)'
+    location: 'Vitoria, Spain'
+    url: 'https://www.ehu.eus/documents/d/heis/-2409-final-ajl-booklet'
+    tags: [Terminology, Corpus Linguistics]
+
+  - id: c20
+    year: 2025
+    authors: García Cabello de Alba, Amparo; Moyano Moreno, Isabel
+    title: 'Miradas que traducen: un estudio con eye-tracking sobre anglicismos y sus equivalentes traductológicos'
+    venue: 'XXXIX Congreso Internacional de la Asociación de Jóvenes Lingüistas (AJL)'
+    location: 'Vitoria, Spain'
+    url: 'https://www.ehu.eus/documents/d/heis/-2409-final-ajl-booklet'
+    tags: [Psycholinguistics, Translation]
+
+  - id: c19
+    year: 2025
+    authors: Crespo Miguel, Mario; Moyano Moreno, Isabel; Bernal Ortiz, Francisco
+    title: 'Análisis de autoría en textos robóticos: enfoque lingüístico-forense mediante técnicas cualitativas y cuantitativas'
+    venue: 'XVI Congreso Internacional de Lingüística General'
+    location: 'Alicante, Spain'
+    url: 'https://cilg2025.ua.es/uploads/site/files/Libro_Resumenes_CILG25.pdf'
+    tags: [Stylometry, Forensic Linguistics]
+
+  - id: c18
+    year: 2024
+    authors: Moyano Moreno, Isabel
+    title: 'Interfaces entre lingüística forense y lingüística computacional: la atribución de autoría'
+    venue: 'II Sesión del Seminario de Jóvenes Investigadores Ubi Sunt?'
+    location: 'Cádiz, Spain'
+    tags: [Forensic Linguistics, Stylometry]
+
+  - id: c17
+    year: 2024
+    type: oral
+    authors: Moyano Moreno, Isabel
+    title: 'Aportaciones del procesamiento del lenguaje natural a la terminología: modelo teórico-computacional para la extracción de términos lingüísticos'
+    venue: 'Jornadas Doctorales EDUCA y EIDEMAR'
+    location: 'Cádiz, Spain'
+    tags: [Terminology, NLP]
+
+  - id: c16
+    year: 2024
+    authors: Moyano Moreno, Isabel
+    title: 'Consideraciones sobre la lingüística de corpus y sus implicaciones terminológicas'
+    venue: 'V Congreso Internacional de Formación Permanente: NODOS DEL CONOCIMIENTO'
+    url: 'https://cilg2025.ua.es/uploads/site/files/Libro_Resumenes_CILG25.pdf'
+    tags: [Corpus Linguistics, Terminology]
+
+  - id: c15
+    year: 2024
+    authors: Moyano Moreno, Isabel; García Cabello de Alba, Amparo
+    title: 'Del corpus a la experimentación: Métodos para la recogida de datos en las ciencias del lenguaje'
+    venue: 'V Congreso Internacional de Formación Permanente: NODOS DEL CONOCIMIENTO'
+    url: 'https://cilg2025.ua.es/uploads/site/files/Libro_Resumenes_CILG25.pdf'
+    tags: [Corpus Linguistics]
+
+  - id: c14
+    year: 2024
+    authors: Moyano Moreno, Isabel
+    title: 'Detección semi-automática de neología en Twitter/X: Una base de datos de neologismos potenciales basada en el léxico de la comunidad hispanohablante de streaming'
+    venue: 'V Congreso Internacional de Formación Permanente: NODOS DEL CONOCIMIENTO'
+    url: 'https://cilg2025.ua.es/uploads/site/files/Libro_Resumenes_CILG25.pdf'
+    tags: [Neology, NLP, Digital Linguistics]
+
+  - id: c13
+    year: 2024
+    authors: Moyano Moreno, Isabel; García Cabello de Alba, Amparo
+    title: 'Métodos para la recogida de datos en las ciencias del lenguaje: Del corpus a la experimentación'
+    venue: 'III Congreso Internacional Tránsitos'
+    location: 'Cádiz, Spain'
+    tags: [Corpus Linguistics]
+
+  - id: c12
+    year: 2024
+    authors: Moyano Moreno, Isabel
+    title: 'De dónde venimos y hacia dónde vamos: cuestiones historiográficas, teóricas y terminológicas en torno a la lingüística de corpus'
+    venue: 'XXXVIII Congreso Internacional de la Asociación de Jóvenes Lingüistas (AJL)'
+    location: 'Santiago de Compostela, Spain'
+    url: 'https://ilg.usc.gal/ajlsantiago/wp-content/uploads/2025/02/libro_resumos-3.pdf'
+    tags: [Corpus Linguistics, Terminology]
+
+  - id: c11
+    year: 2024
+    authors: Moyano Moreno, Isabel
+    title: 'Hybrid approaches to Automatic Term Extraction in the Linguistics domain'
+    venue: '41º Congreso Internacional de la Sociedad Española de Lingüística Aplicada (AESLA)'
+    location: 'Valencia, Spain'
+    tags: [Terminology, NLP]
+
+  - id: c10
+    year: 2024
+    authors: Moyano Moreno, Isabel; Crespo Miguel, Mario
+    title: 'Tendencias actuales en la intersección terminografía-inteligencia artificial'
+    venue: '41º Congreso Internacional de la Sociedad Española de Lingüística Aplicada (AESLA)'
+    location: 'Valencia, Spain'
+    tags: [Terminology, NLP]
+
+  - id: c8
+    year: 2024
+    type: poster
+    authors: Moyano Moreno, Isabel
+    title: 'Extracción semi-automática de neología en Twitter/X: Hacia una base de datos de neologismos potenciales basada en el léxico de la comunidad hispanohablante de streaming'
+    venue: 'Jornadas Doctorales EDUCA y EIDEMAR'
+    location: 'Cádiz, Spain'
+    tags: [Neology, NLP, Digital Linguistics]
+
+  - id: c9
+    year: 2023
+    authors: Moyano Moreno, Isabel
+    title: 'Extracción semi-automática de términos vinculada a los contenidos actuales de la Lingüística de corpus'
+    venue: 'XV Congreso de Lingüística General'
+    location: 'Madrid, Spain'
+    tags: [Terminology, Corpus Linguistics]
+
+  - id: c7
+    year: 2023
+    authors: Moyano Moreno, Isabel; García Cabello de Alba, Amparo
+    title: 'Propuesta metodológica desde el procesamiento del lenguaje natural para la creación de un corpus de neologismos: El habla coloquial en Twitter'
+    venue: '40º Congreso Internacional de la Sociedad Española de Lingüística Aplicada (AESLA)'
+    location: 'Mérida, Spain'
+    tags: [Neology, NLP, Corpus Linguistics]
+
+  - id: c6
+    year: 2023
+    authors: Moyano Moreno, Isabel; García Cabello de Alba, Amparo
+    title: 'Procesamiento y producción flexiva de neologismos en Twitter'
+    venue: '40º Congreso Internacional de la Sociedad Española de Lingüística Aplicada (AESLA)'
+    location: 'Mérida, Spain'
+    tags: [Neology, NLP]
+
+  - id: c5
+    year: 2023
+    authors: Moyano Moreno, Isabel; García Cabello de Alba, Amparo
+    title: 'Extracción semi-automática de términos vinculada a los contenidos y perspectivas actuales de la Fraseología'
+    venue: 'XXIII Congreso Internacional de la Asociación Alemana de Hispanistas'
+    location: 'Graz, Austria'
+    url: 'https://unipub.uni-graz.at/obvugrveroeff/download/pdf/8389514'
+    tags: [Terminology, Corpus Linguistics]
+
+  - id: c4
+    year: 2022
+    type: poster
+    authors: Moyano Moreno, Isabel
+    title: 'Terminología y Lingüística computacional: extracción semi-automática bilingüe de los usos terminológicos de la Lingüística de corpus'
+    venue: 'Jornadas Doctorales EDUCA y EIDEMAR'
+    location: 'Cádiz, Spain'
+    tags: [Terminology, Computational Linguistics]
+
+  - id: c3
+    year: 2022
+    authors: Moyano Moreno, Isabel
+    title: 'Humanidades digitales: Revisión teórica y propuesta de ficha terminológica del término estilo como uso técnico vinculado a la Estilometría'
+    venue: 'VI Congreso de Lingüística y Literatura'
+    location: 'Santander, Spain'
+    tags: [Stylometry, Terminology, Digital Humanities]
+
+  - id: c2
+    year: 2022
+    authors: Moyano Moreno, Isabel
+    title: 'Humanidades digitales y estilometría: Lectura distante, lingüística digital y visualización macroscópica de textos'
+    venue: 'XXXVI Congreso Internacional de la Asociación de Jóvenes Lingüistas (AJL)'
+    location: 'Sevilla, Spain'
+    tags: [Stylometry, Digital Humanities]
+
+  - id: c1
+    year: 2022
+    authors: Moyano Moreno, Isabel
+    title: 'Detección de relaciones semánticas para la elaboración de fichas terminológicas y metalingüísticas'
+    venue: 'XIII International Corpus Linguistics Conference'
+    location: 'Bergamo, Italy'
+    tags: [Terminology, Corpus Linguistics]

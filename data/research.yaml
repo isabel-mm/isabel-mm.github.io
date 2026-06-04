@@ -1,6 +1,5 @@
 sections:
 
-
 - id: journal_articles
   title: Journal articles
   items:
@@ -47,31 +46,6 @@ sections:
     - Computational Linguistics
     - Named Entity Recognition
 
-  - id: moyano2026resena
-    type: review
-    year: 2026
-    authors: Moyano Moreno, Isabel
-    title: 'Reseña del libro: Serrano Zapata, M. (ed.) (2024). Corpus lingüísticos y enseñanza de lenguas'
-    venue: 'ELUA: Estudios de Lingüística. Universidad de Alicante'
-    issue: '45'
-    pages: 353–359
-    doi: 10.14198/ELUA.30401
-    url: https://doi.org/10.14198/ELUA.30401
-
-
-  - id: moyano2024resena
-    type: review
-    year: 2024
-    authors: Moyano Moreno, Isabel
-    title: 'Reseña de Calvo Tello, J. (2021): The Novel in the Spanish Silver Age. A Digital Analysis of Genre Using Machine
-      Learning. Bielefeld: Bielefeld University Press, 470 pp. ISBN: 978-3-8376-5925-2'
-    venue: Philologia Hispalensis
-    volume: '38'
-    issue: '2'
-    pages: 249–253
-    url: https://hdl.handle.net/11441/174463
-
-
   - id: moyano2023estilometria
     type: paper
     year: 2023
@@ -88,25 +62,16 @@ sections:
     - Corpus linguistics
 
 
-  - id: moyano2022resena
-    type: review
-    year: 2022
-    authors: Moyano Moreno, Isabel
-    title: 'Reseña de L''Homme, M. C. (2020): Lexical semantics for terminology: An introduction'
-    venue: Lynx
-    issue: '21'
-
-
 - id: book_chapters
   title: Book chapters
   items:
+
   - id: moyano2026extraccion
     type: incollection
     year: 2026
     authors: Moyano Moreno, Isabel
     title: 'Extracción de neologismos en Twitter/X: El léxico emergente de la comunidad hispanohablante de streaming'
-    venue: 'Perspectivas interdisciplinares en lengua, literatura y traducción: desde las raíces clásicas hasta la era de
-      la inteligencia artificial'
+    venue: 'Perspectivas interdisciplinares en lengua, literatura y traducción: desde las raíces clásicas hasta la era de la inteligencia artificial'
     editor: Flores Borjabad, Salud Adelaida, and Nisa Ávila, Javier Antonio
     pages: 259–280
     publisher: Tirant Lo Blanch
@@ -114,7 +79,6 @@ sections:
     - Neology
     - Corpus linguistics
     - Digital linguistics
-
 
   - id: moyano2025antecedentes
     type: incollection
@@ -148,11 +112,9 @@ sections:
     type: incollection
     year: 2025
     authors: Moyano Moreno, Isabel
-    title: 'La estilometría computacional desde las humanidades digitales: propuesta metodológica para el análisis estilométrico
-      de novelas anglófonas realistas y modernistas'
+    title: 'La estilometría computacional desde las humanidades digitales: propuesta metodológica para el análisis estilométrico de novelas anglófonas realistas y modernistas'
     venue: Voces emergentes de la lingüística actual
-    editor: Aldama Pando, Isamary and Company Almagro, Rebeca and García Pérez, José and López Romero, María and Martín del
-      Barrio, Irene
+    editor: Aldama Pando, Isamary and Company Almagro, Rebeca and García Pérez, José and López Romero, María and Martín del Barrio, Irene
     pages: 273–294
     publisher: Universidad de Sevilla
     link: https://editorial.us.es/es/detalle-libro/720708/voces-emergentes-de-la-lingistica-actual
@@ -175,24 +137,60 @@ sections:
     - Corpus linguistics
     - Terminology
 
-- id: theses
-  title: Theses
+
+- id: reviews
+  title: Reviews
   items:
+
+  - id: moyano2026resena
+    type: review
+    year: 2026
+    authors: Moyano Moreno, Isabel
+    title: 'Reseña del libro: Serrano Zapata, M. (ed.) (2024). Corpus lingüísticos y enseñanza de lenguas'
+    venue: 'ELUA: Estudios de Lingüística. Universidad de Alicante'
+    issue: '45'
+    pages: 353–359
+    doi: 10.14198/ELUA.30401
+    url: https://doi.org/10.14198/ELUA.30401
+
+  - id: moyano2024resena
+    type: review
+    year: 2024
+    authors: Moyano Moreno, Isabel
+    title: 'Reseña de Calvo Tello, J. (2021): The Novel in the Spanish Silver Age. A Digital Analysis of Genre Using Machine Learning. Bielefeld: Bielefeld University Press, 470 pp. ISBN: 978-3-8376-5925-2'
+    venue: Philologia Hispalensis
+    volume: '38'
+    issue: '2'
+    pages: 249–253
+    url: https://hdl.handle.net/11441/174463
+
+  - id: moyano2022resena
+    type: review
+    year: 2022
+    authors: Moyano Moreno, Isabel
+    title: 'Reseña de L''Homme, M. C. (2020): Lexical semantics for terminology: An introduction'
+    venue: Lynx
+    issue: '21'
+
+
+- id: theses
+  title: Other academic publications
+  items:
+
   - id: moyano2021acercamiento
     type: M.A. thesis
     year: 2021
     authors: Moyano Moreno, Isabel
-    title: 'Acercamiento a las Humanidades Digitales y la Estilometría: Propuesta de análisis estilométrico con Stylo (R)
-      sobre un corpus de literatura anglófona realista y modernista'
+    title: 'Acercamiento a las Humanidades Digitales y la Estilometría: Propuesta de análisis estilométrico con Stylo (R) sobre un corpus de literatura anglófona realista y modernista'
     degree: M.A. thesis
     institution: Universidad de Cádiz
     tags:
     - Stylometry
     - Corpus linguistics
     - Digital humanities
-  
+
   - id: moyano2020mental
-    type: B. A. thesis
+    type: B.A. thesis
     year: 2020
     authors: Moyano Moreno, Isabel
     title: 'The Mental Lexicon: A contrastive analysis of motion verbs in English and Spanish'
@@ -203,15 +201,18 @@ sections:
     - Cognitive Semantics
     - Language Typology
 
+
 - id: datasets_tools
   title: Datasets & tools
   items:
+
   - id: moyano2026builder
     type: Tool
     year: 2026
     authors: Moyano Moreno, Isabel
     title: 'IS-A-BUILDER: conversor de texto a datos estructurados'
     doi: https://doi.org/10.5281/zenodo.18494399
+
   - id: zamora2024lingcomp_qa
     type: Dataset
     year: 2024

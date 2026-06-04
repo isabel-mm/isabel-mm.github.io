@@ -24,11 +24,11 @@
 {{ end }}
 <!-- Custom Terminal.css styles -->
 {{ if (fileExists "static/css/terminal.css") -}}
-  <link rel="stylesheet" href="{{ "css/terminal.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "css/terminal.css" | relURL }}">
 {{- end }}
 <!-- Custom CSS to override theme properties (/static/style.css) -->
 {{ if (fileExists "static/style.css") -}}
-  <link rel="stylesheet" href="{{ "style.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "style.css" | relURL }}">
 {{- end }}
 
 <!-- Icons -->

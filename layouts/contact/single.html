@@ -21,7 +21,7 @@
       </div>
 
       <div class="contact-card__body">
-        <div class="contact-card__label">{{ .label }}</div>
+        <div class="contact-card__label">{{ i18n .label | default .label }}</div>
 
         <div class="contact-card__value">
           {{ with .href }}

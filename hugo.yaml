@@ -1,8 +1,18 @@
 baseURL: "https://isabel-mm.github.io/"
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
 languageCode: "en"
 title: "Isabel Moyano"
 theme: "terminal"
 enableRobotsTXT: true
+
+languages:
+  en:
+    languageName: "EN"
+    weight: 1
+  es:
+    languageName: "ES"
+    weight: 2
 
 menu:
   main:
@@ -10,10 +20,18 @@ menu:
       name: "Home"
       url: "/"
       weight: 10
+    - identifier: cv
+      name: "CV"
+      url: "/cv/"
+      weight: 15
     - identifier: research
       name: "Research"
       url: "/research/"
       weight: 20
+    - identifier: talks
+      name: "Conferences & talks"
+      url: "/talks/"
+      weight: 22
     - identifier: projects
       name: "Projects"
       url: "/projects/"

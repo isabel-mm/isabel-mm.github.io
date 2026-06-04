@@ -1,0 +1,25 @@
+home: "Inicio"
+cv: "CV"
+research: "Investigación"
+talks: "Conferencias y charlas"
+projects: "Proyectos"
+resources-tools: "Recursos y herramientas"
+contact: "Contacto"
+
+home_kicker: "Hola, soy"
+home_role: "Doctoranda FPU en Lingüística"
+home_group_1: "Área de Lingüística General (Departamento de Filología) @ Universidad de Cádiz"
+home_group_2: "Instituto de Investigación en Lingüística Aplicada (ILA)"
+home_group_3: "Miembro de <em>Semaínein</em> (HUM-147)"
+home_cv: "Descargar CV"
+
+research_journal_articles: "Artículos en revista"
+research_reviews: "Reseñas"
+research_book_chapters: "Capítulos de libro"
+research_theses: "Otras publicaciones académicas"
+research_datasets_tools: "Datos y herramientas"
+research_download_bib: "Descargar bibliografía completa (.bib)"
+
+link_arrow: "Enlace →"
+
+Affiliation: "Filiación"

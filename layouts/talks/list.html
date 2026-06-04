@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+{{ with .Content }}
+  <div class="section-intro">
+    {{ . }}
+  </div>
+{{ end }}
+
+{{ range sort site.Data.conferences.items "year" "desc" }}
+  <div class="pub-item">
+
+    <div class="pub-header">
+      {{ with .year }}<span class="pub-year">{{ . }}</span>{{ end }}
+      {{ with .type }}<span class="pub-type">{{ . }}</span>{{ end }}
+    </div>
+
+    {{ with .title }}
+      <div class="pub-title">{{ . }}</div>
+    {{ end }}
+
+    {{ with .authors }}
+      <div class="pub-authors">{{ . }}</div>
+    {{ end }}
+
+    <div class="pub-venue">
+      {{ .venue }}
+      {{ with .location }} · <span class="pub-location">{{ . }}</span>{{ end }}
+    </div>
+
+    {{ with .tags }}
+      <div class="pub-tags">
+        {{ range . }}<span class="pub-tag">{{ . }}</span>{{ end }}
+      </div>
+    {{ end }}
+
+    {{ with .url }}
+      <div class="pub-links">
+        <a href="{{ . }}" target="_blank" rel="noopener"><strong>Abstract</strong> →</a>
+      </div>
+    {{ end }}
+
+  </div>
+{{ end }}
+
+{{ end }}

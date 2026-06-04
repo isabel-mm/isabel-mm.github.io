@@ -386,28 +386,21 @@ button {
   font-weight: 600;
 }
 
-.content {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-@media (min-width: 1200px) {
-  .content {
-    max-width: 950px; /* o 1000px, a gusto */
-  }
-}
-
-/* Center the main wrapper used by Hugo Terminal theme */
+/* Container: one place for horizontal padding and max-width */
 body > div {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Remove double-padding — container already handles it */
+.content {
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
@@ -492,6 +485,11 @@ html, body {
 
 .card__links a:hover {
   text-decoration: underline;
+}
+
+/* Center navbar items */
+.navigation-menu__inner {
+  justify-content: center;
 }
 
 /* Active menu item */
@@ -809,4 +807,181 @@ h1:has(+ .projects-page),
 
 .cv-link:hover {
   background: color-mix(in srgb, var(--accent) 15%, transparent);
+}
+/* =========================
+   LANGUAGE SWITCHER (floating)
+   ========================= */
+
+.lang-float {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--background);
+  border: 2px solid var(--accent);
+  padding: 0.4rem 0.85rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 0 var(--accent);
+}
+
+.lang-float__current {
+  color: var(--accent);
+}
+
+.lang-float__sep {
+  opacity: 0.35;
+  font-weight: 400;
+}
+
+.lang-float__link {
+  text-decoration: none;
+  color: var(--foreground);
+  opacity: 0.45;
+  transition: opacity 0.15s, color 0.15s;
+}
+
+.lang-float__link:hover {
+  opacity: 1;
+  color: var(--accent);
+}
+
+/* =========================
+   BACKGROUND / EDUCATION
+   ========================= */
+
+.edu-section {
+  margin-bottom: 1rem;
+}
+
+.edu-section summary.edu-section__title {
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+  user-select: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: var(--accent);
+  color: var(--background);
+}
+
+.edu-section summary.edu-section__title::-webkit-details-marker {
+  display: none;
+}
+
+.edu-section__icon {
+  flex-shrink: 0;
+  width: 2rem;
+  font-size: 1rem;
+}
+
+.edu-section__label {
+  flex: 1;
+  text-align: center;
+}
+
+.edu-section__count {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.7;
+  background: color-mix(in srgb, var(--background) 25%, transparent);
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+  margin-right: 0.5rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.edu-section summary.edu-section__title::after {
+  content: '+';
+  flex-shrink: 0;
+  width: 2rem;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.edu-section[open] summary.edu-section__title::after {
+  content: '−';
+}
+
+.edu-section summary.edu-section__title:hover {
+  background: color-mix(in srgb, var(--accent) 82%, black);
+}
+
+.edu-section__content {
+  padding: 1.2rem 1.1rem 0.4rem;
+  border: 2px solid var(--accent);
+  border-top: none;
+}
+
+.edu-section__content .edu-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+}
+
+.edu-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--foreground) 20%, transparent);
+}
+
+.edu-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.edu-degree {
+  font-weight: 600;
+  font-size: calc(var(--font-size) * 1.05);
+  margin: 0;
+  color: var(--accent);
+}
+
+.edu-year {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.edu-institution {
+  font-weight: 600;
+  margin: 0.2rem 0;
+}
+
+.edu-thesis {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin: 0.3rem 0;
+}
+
+.edu-meta {
+  font-size: 0.85rem;
+  opacity: 0.65;
+  margin: 0.2rem 0;
+}
+
+/* =========================
+   TALKS — location field
+   ========================= */
+
+.pub-location {
+  font-style: normal;
+  opacity: 0.75;
 }

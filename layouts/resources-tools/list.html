@@ -30,7 +30,7 @@
 
     {{ with .Params.link }}
       <p class="card__links">
-        <a href="{{ . }}" target="_blank" rel="noopener">Link →</a>
+        <a href="{{ . }}" target="_blank" rel="noopener">{{ i18n "link_arrow" | default "Link →" }}</a>
       </p>
     {{ end }}
   </div>

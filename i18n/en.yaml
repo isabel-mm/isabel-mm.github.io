@@ -1,0 +1,25 @@
+home: "Home"
+cv: "CV"
+research: "Research"
+talks: "Conferences & talks"
+projects: "Projects"
+resources-tools: "Resources & tools"
+contact: "Contact"
+
+home_kicker: "Hi, I'm"
+home_role: "PhD Fellow (FPU) in Linguistics"
+home_group_1: "Area of General Linguistics (Philology Department) @ University of Cádiz"
+home_group_2: "Research Institute of Applied Linguistics (ILA)"
+home_group_3: "Member of <em>Semaínein</em> (HUM-147)"
+home_cv: "Download CV"
+
+research_journal_articles: "Journal articles"
+research_reviews: "Reviews"
+research_book_chapters: "Book chapters"
+research_theses: "Other academic publications"
+research_datasets_tools: "Datasets & tools"
+research_download_bib: "Download full bibliography (.bib)"
+
+link_arrow: "Link →"
+
+Affiliation: "Affiliation"

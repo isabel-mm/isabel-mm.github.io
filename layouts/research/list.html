@@ -7,63 +7,77 @@
 {{ end }}
 
 {{ $data := site.Data.research }}
+{{ $icons := dict
+  "journal_articles" "fa-newspaper"
+  "reviews"          "fa-pen"
+  "book_chapters"    "fa-book"
+  "theses"           "fa-folder-open"
+  "datasets_tools"   "fa-database"
+}}
 
-{{ range $data.sections }}
-  <section class="research-section">
-    <h2>{{ .title }}</h2>
+{{ range $i, $section := $data.sections }}
+  {{ $icon := index $icons $section.id | default "fa-file-alt" }}
+  {{ $count := len $section.items }}
 
-    {{ range sort .items "year" "desc" }}
-      {{ $doi := .doi }}
-      {{ $url := .url }}
+  <details class="edu-section"{{ if eq $i 0 }} open{{ end }}>
+    <summary class="edu-section__title">
+      <span class="edu-section__icon"><i class="fas {{ $icon }}"></i></span>
+      <span class="edu-section__label">{{ i18n (printf "research_%s" $section.id) | default $section.title }}</span>
+      <span class="edu-section__count">{{ $count }}</span>
+    </summary>
+    <div class="edu-section__content">
 
-      <div class="pub-item">
+      {{ range sort $section.items "year" "desc" }}
+        {{ $doi := .doi }}
+        {{ $url := .url }}
 
-        <div class="pub-header">
-          {{ with .year }}<span class="pub-year">{{ . }}</span>{{ end }}
-          {{ with .type }}<span class="pub-type">{{ . }}</span>{{ end }}
-        </div>
+        <div class="pub-item">
 
-        {{ with .title }}
-          <div class="pub-title">{{ . }}</div>
-        {{ end }}
-
-        {{ with .authors }}
-          <div class="pub-authors">{{ . }}</div>
-        {{ end }}
-
-        <div class="pub-venue">
-          {{ .venue }}
-          {{ with .volume }}, <strong>{{ . }}</strong>{{ end }}
-          {{ with .number }} ({{ . }}){{ end }}
-          {{ with .pages }}, {{ . }}{{ end }}
-          {{ with .publisher }} · {{ . }}{{ end }}
-        </div>
-
-        {{ with .tags }}
-            <div class="pub-tags">
-                {{ range . }}
-                <span class="pub-tag">{{ . }}</span>
-                {{ end }}
-            </div>
-        {{ end }}
-
-
-        {{ if or $doi $url }}
-          <div class="pub-links">
-            {{ with $doi }}
-              <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener"><strong>DOI</strong> →</a>
-            {{ end }}
-
-            {{ if and $url (not $doi) }}
-              <a href="{{ $url }}" target="_blank" rel="noopener"><strong>Link</strong> →</a>
-            {{ end }}
+          <div class="pub-header">
+            {{ with .year }}<span class="pub-year">{{ . }}</span>{{ end }}
+            {{ with .type }}<span class="pub-type">{{ . }}</span>{{ end }}
           </div>
-        {{ end }}
 
-      </div>
-    {{ end }}
+          {{ with .title }}
+            <div class="pub-title">{{ . }}</div>
+          {{ end }}
 
-  </section>
+          {{ with .authors }}
+            <div class="pub-authors">{{ . }}</div>
+          {{ end }}
+
+          <div class="pub-venue">
+            {{ .venue }}
+            {{ with .volume }}, <strong>{{ . }}</strong>{{ end }}
+            {{ with .number }} ({{ . }}){{ end }}
+            {{ with .pages }}, {{ . }}{{ end }}
+            {{ with .publisher }} · {{ . }}{{ end }}
+          </div>
+
+          {{ with .tags }}
+            <div class="pub-tags">
+              {{ range . }}
+              <span class="pub-tag">{{ . }}</span>
+              {{ end }}
+            </div>
+          {{ end }}
+
+          {{ if or $doi $url }}
+            <div class="pub-links">
+              {{ with $doi }}
+                <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener"><strong>DOI</strong> →</a>
+              {{ end }}
+              {{ if and $url (not $doi) }}
+                <a href="{{ $url }}" target="_blank" rel="noopener"><strong>Link</strong> →</a>
+              {{ end }}
+            </div>
+          {{ end }}
+
+        </div>
+      {{ end }}
+
+    </div>
+  </details>
 {{ end }}
 
 {{ end }}
