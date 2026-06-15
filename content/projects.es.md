@@ -7,6 +7,8 @@ hideTitle: true
 Proyectos de investigación en los que participo actualmente.
 </div>
 
+<div class="projects-gallery">
+
 <div class="card">
   <div class="card__header">
     <h2 class="card__title">TerlexWeb</h2>
@@ -18,6 +20,7 @@ Proyectos de investigación en los que participo actualmente.
     <span class="tag">lexicology</span>
     <span class="tag">digital humanities</span>
   </div>
+  <p class="card__links"><a href="https://ila.uca.es/proyectos/" target="_blank" rel="noopener">Más información →</a></p>
   <p class="card__links">IP: Miguel Casas Gómez · Ministerio de Ciencia e Innovación</p>
 </div>
 
@@ -32,5 +35,8 @@ Proyectos de investigación en los que participo actualmente.
     <span class="tag">AI detection</span>
     <span class="tag">NLP</span>
   </div>
+  <p class="card__links"><a href="https://www.ucm.es/robottalk/" target="_blank" rel="noopener">Más información →</a></p>
   <p class="card__links">IPs: Ana María Fernández-Pampillón Cesteros & Marianela Fernández Trinidad · Ministerio de Ciencia e Innovación</p>
+</div>
+
 </div>

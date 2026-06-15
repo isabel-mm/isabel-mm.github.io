@@ -1,19 +1,43 @@
 <footer class="footer">
   <div class="footer__inner">
-
-    {{ if $.Site.Copyright }}
-      <div class="copyright copyright--user">
-        <span>{{ $.Site.Copyright | safeHTML }}</span>
-    {{ else }}
-      <div class="copyright">
-        <span>© {{ now.Year }}</span>
-    {{ end }}
-        <span>:: Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
-        <span>:: Theme by <a href="https://github.com/panr" target="_blank" rel="noopener">panr</a></span>
+    <div class="footer-content">
+      <p class="footer-connect">Let's connect!</p>
+      <div class="footer-socials">
+        <a href="mailto:isabel.moyano@uca.es" title="Email" class="footer-social">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/isabel-mm" target="_blank" rel="noopener" title="GitHub" class="footer-social">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/isabel-moyano-moreno-62619a1bb/" target="_blank" rel="noopener" title="LinkedIn" class="footer-social">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://orcid.org/0000-0003-4284-8897" target="_blank" rel="noopener" title="ORCID" class="footer-social">
+          <i class="fab fa-orcid"></i>
+        </a>
       </div>
-
+      <p class="footer-copyright">© {{ now.Year }} Isabel Moyano-Moreno</p>
+    </div>
   </div>
 </footer>
+
+<button id="scrollToTop" class="scroll-to-top" title="Back to top">▲</button>
+
+<script>
+const scrollBtn = document.getElementById('scrollToTop');
+
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 300) {
+    scrollBtn.classList.add('show');
+  } else {
+    scrollBtn.classList.remove('show');
+  }
+});
+
+scrollBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+</script>
 
 {{ $menu := resources.Get "js/menu.js" | js.Build }}
 {{ $cp := resources.Get "js/code.js" | js.Build }}

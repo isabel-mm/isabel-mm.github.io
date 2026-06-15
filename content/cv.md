@@ -56,7 +56,7 @@ hideTitle: true
 <details class="edu-section">
 <summary class="edu-section__title">
   <span class="edu-section__icon"><i class="fas fa-briefcase"></i></span>
-  <span class="edu-section__label">Experience</span>
+  <span class="edu-section__label">Work experience</span>
 </summary>
 <div class="edu-section__content">
 

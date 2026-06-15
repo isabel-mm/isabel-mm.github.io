@@ -5,21 +5,10 @@ title: "Inicio"
 {{< home-intro >}}
 
 
-## 💡 Sobre mí
+## Sobre mí
 
-Trabajo en la intersección entre la lingüística teórica y los métodos computacionales. Mi investigación se centra en:
+Soy investigadora predoctoral (FPU21/03261) en Lingüística General en la [Universidad de Cádiz](https://www.uca.es), desarrollando mi tesis doctoral en terminología computacional y lingüística de corpus. Estoy adscrita al [grupo de investigación Semaínein](https://www.uca.es) (HUM-147) y al Laboratorio de Lingüística Computacional y Digital del [Instituto de Lingüística Aplicada](https://ila.uca.es) (ILA).
 
-- Extracción automática de terminología
-- Diseño y evaluación de la representatividad de corpus especializados
-- Enfoques supervisados para la detección de patrones lingüísticos
-- Análisis de autoría y estilometría
+Tengo un doble grado en Lingüística y Lenguas Aplicadas, y en Estudios Ingleses (UCA, 2020), y un máster en Comunicación Internacional (UCA, 2021).
 
-Me interesa especialmente cómo la teoría lingüística puede informar el modelado computacional, y las implicaciones epistemológicas de la mediación tecnológica en la investigación sobre el lenguaje.
-
-## 🔬 Trabajo actual
-
-Mi trabajo actual tiene como objetivo:
-
-- Desarrollar un modelo teórico-computacional de la terminología
-- Construir un pipeline reproducible para la extracción terminológica
-- Proponer métodos cuantitativos para evaluar la representatividad terminológica
+Mi investigación se centra en la ingeniería lingüística y la terminología computacional, con énfasis en la extracción automática de términos y en el modelado del lenguaje especializado mediante enfoques basados en corpus y técnicas de aprendizaje automático. También trabajo en análisis de autoría, combinando lingüística forense y estilometría. Soy activa en divulgación científica y parte del equipo editorial de *Circuigramas*, un Substack sobre procesamiento del lenguaje natural.

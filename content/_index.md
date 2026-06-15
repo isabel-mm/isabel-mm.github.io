@@ -5,21 +5,10 @@ title: "Home"
 {{< home-intro >}}
 
 
-## 💡 About me
+## About me
 
-I work at the intersection of theoretical linguistics and computational methods. My research focuses on:
+I'm a predoctoral researcher (FPU21/03261) in General Linguistics at the [University of Cádiz](https://www.uca.es), developing my doctoral research in computational terminology and corpus linguistics. I'm affiliated with the [Semaínein research group](https://www.uca.es) (HUM-147) and the Computational and Digital Linguistics Lab at the [Institute for Applied Linguistics](https://ila.uca.es) (ILA).
 
-- Automatic term extraction
-- Domain-specific corpus design and representativeness assessment
-- Supervised approaches for linguistic pattern detection
-- Authorship analysis and stylometry
+I hold dual degrees in Linguistics and Applied Languages, and in English Studies (UCA, 2020), and a Master's in International Communication (UCA, 2021).
 
-I am particularly interested in how linguistic theory can inform computational modelling, and in the epistemological implications of technological mediation in language research.
-
-## 🔬 Current work
-
-My current work aims to:
-
-- Develop a theoretical–computational model of terminology
-- Build a reproducible pipeline for term extraction
-- Propose quantitative methods to evaluate terminological representativeness
+My research focuses on linguistic engineering and computational terminology, with emphasis on automatic term extraction and modeling specialized language through corpus-based and machine learning approaches. I also work in authorship analysis, combining forensic linguistics and stylometry. I'm active in science outreach and part of the editorial team at *Circuigramas*, a Substack about natural language processing.

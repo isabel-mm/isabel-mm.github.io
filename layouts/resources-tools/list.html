@@ -6,6 +6,7 @@
   </div>
 {{ end }}
 
+<div class="resources-gallery">
 {{ $pages := .RegularPages }}
 {{ range sort $pages "Params.year" "desc" }}
   <div class="card">
@@ -35,5 +36,6 @@
     {{ end }}
   </div>
 {{ end }}
+</div>
 
 {{ end }}

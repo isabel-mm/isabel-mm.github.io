@@ -16,10 +16,6 @@ languages:
 
 menu:
   main:
-    - identifier: home
-      name: "Home"
-      url: "/"
-      weight: 10
     - identifier: cv
       name: "CV"
       url: "/cv/"
@@ -32,18 +28,14 @@ menu:
       name: "Conferences & talks"
       url: "/talks/"
       weight: 22
-    - identifier: projects
-      name: "Projects"
-      url: "/projects/"
-      weight: 25
     - identifier: resources-tools
       name: "Resources & tools"
       url: "/resources-tools/"
+      weight: 25
+    - identifier: projects
+      name: "Projects"
+      url: "/projects/"
       weight: 30
-    - identifier: contact
-      name: "Contact"
-      url: "/contact/"
-      weight: 40
 
 params:
   description: "PhD Fellow (FPU) in Linguistics. Computational linguistics, terminology, stylometry and corpus linguistics."

@@ -35,7 +35,6 @@
 
           <div class="pub-header">
             {{ with .year }}<span class="pub-year">{{ . }}</span>{{ end }}
-            {{ with .type }}<span class="pub-type">{{ . }}</span>{{ end }}
           </div>
 
           {{ with .title }}
@@ -65,10 +64,10 @@
           {{ if or $doi $url }}
             <div class="pub-links">
               {{ with $doi }}
-                <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener"><strong>DOI</strong> →</a>
+                <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener" class="pub-link-arrow"><strong>DOI</strong></a>
               {{ end }}
               {{ if and $url (not $doi) }}
-                <a href="{{ $url }}" target="_blank" rel="noopener"><strong>Link</strong> →</a>
+                <a href="{{ $url }}" target="_blank" rel="noopener" class="pub-link-arrow"><strong>Link</strong></a>
               {{ end }}
             </div>
           {{ end }}

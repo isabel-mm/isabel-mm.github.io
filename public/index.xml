@@ -1,43 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Isabel Moyano</title><link>https://isabel-mm.github.io/</link><description>Recent content in Home on Isabel Moyano</description><generator>Hugo</generator><language>en</language><atom:link href="https://isabel-mm.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Circuigramas</title><link>https://isabel-mm.github.io/resources-tools/circuigramas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://isabel-mm.github.io/resources-tools/circuigramas/</guid><description/></item><item><title>Contact</title><link>https://isabel-mm.github.io/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://isabel-mm.github.io/contact/</guid><description>&lt;p&gt;You can reach me through the following channels:&lt;/p&gt;</description></item><item><title>CV</title><link>https://isabel-mm.github.io/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://isabel-mm.github.io/cv/</guid><description>&lt;details class="edu-section" open&gt;
-&lt;summary class="edu-section__title"&gt;
- &lt;span class="edu-section__icon"&gt;&lt;i class="fas fa-graduation-cap"&gt;&lt;/i&gt;&lt;/span&gt;
- &lt;span class="edu-section__label"&gt;Education&lt;/span&gt;
-&lt;/summary&gt;
-&lt;div class="edu-section__content"&gt;
-&lt;div class="edu-item"&gt;
- &lt;div class="edu-header"&gt;
- &lt;h2 class="edu-degree"&gt;PhD in Linguistics&lt;/h2&gt;
- &lt;span class="edu-year"&gt;2021 – present&lt;/span&gt;
- &lt;/div&gt;
- &lt;p class="edu-institution"&gt;University of Cádiz&lt;/p&gt;
- &lt;p class="edu-thesis"&gt;Doctoral thesis: &lt;em&gt;Terminología y Lingüística Computacional: Extracción semi-automática bilingüe español-inglés de los usos terminológicos de la Lingüística de corpus&lt;/em&gt;&lt;/p&gt;
- &lt;p class="edu-meta"&gt;Supervisors: Dr. Miguel Casas Gómez · Dr. Mario Crespo Miguel · FPU fellow (Ministry of Universities, Spain)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="edu-item"&gt;
- &lt;div class="edu-header"&gt;
- &lt;h2 class="edu-degree"&gt;M.A. in International Communication&lt;/h2&gt;
- &lt;span class="edu-year"&gt;2020 – 2021&lt;/span&gt;
- &lt;/div&gt;
- &lt;p class="edu-institution"&gt;University of Cádiz&lt;/p&gt;
- &lt;p class="edu-thesis"&gt;M.A. thesis: &lt;em&gt;Un acercamiento a las Humanidades Digitales y la Estilometría: Propuesta de análisis estilométrico con Stylo (R) sobre un corpus de literatura anglófona realista y modernista&lt;/em&gt;&lt;/p&gt;</description></item><item><title>IS-A-BUILDER</title><link>https://isabel-mm.github.io/resources-tools/is-a-builder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://isabel-mm.github.io/resources-tools/is-a-builder/</guid><description/></item><item><title>LingComp_QA Dataset</title><link>https://isabel-mm.github.io/resources-tools/lingcomp-qa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://isabel-mm.github.io/resources-tools/lingcomp-qa/</guid><description/></item><item><title>Projects</title><link>https://isabel-mm.github.io/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://isabel-mm.github.io/projects/</guid><description>&lt;div class="section-intro"&gt;
-Research projects I'm currently involved in.
-&lt;/div&gt;
-&lt;div class="card"&gt;
- &lt;div class="card__header"&gt;
- &lt;h2 class="card__title"&gt;TerlexWeb&lt;/h2&gt;
- &lt;span class="card__year"&gt;2023–2027&lt;/span&gt;
- &lt;/div&gt;
- &lt;p class="card__desc"&gt;Aplicaciones de la lingüística digital al ámbito de la terminología: la creación de un léxico relacional bilingüe de los usos terminológicos de la semántica léxica.&lt;br&gt;&lt;em&gt;Digital linguistics applications in terminology: building a bilingual relational lexicon of terminological uses in lexical semantics.&lt;/em&gt;&lt;/p&gt;
- &lt;div class="card__tags"&gt;
- &lt;span class="tag"&gt;terminology&lt;/span&gt;
- &lt;span class="tag"&gt;lexicology&lt;/span&gt;
- &lt;span class="tag"&gt;digital humanities&lt;/span&gt;
- &lt;/div&gt;
- &lt;p class="card__links"&gt;PI: Miguel Casas Gómez · Ministerio de Ciencia e Innovación&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="card"&gt;
- &lt;div class="card__header"&gt;
- &lt;h2 class="card__title"&gt;ROBOT-TALK&lt;/h2&gt;
- &lt;span class="card__year"&gt;2023–2026&lt;/span&gt;
- &lt;/div&gt;
- &lt;p class="card__desc"&gt;Reconocimiento del origen robótico de textos. Automatización de tareas y conocimiento lingüístico.&lt;br&gt;&lt;em&gt;Recognising the robotic origin of texts. Task automation and linguistic knowledge.&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Isabel Moyano</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Isabel Moyano</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Circuigramas</title>
+      <link>http://localhost:1313/resources-tools/circuigramas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources-tools/circuigramas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;You can reach me through the following channels:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;details class=&#34;edu-section&#34; open&gt;&#xA;&lt;summary class=&#34;edu-section__title&#34;&gt;&#xA;  &lt;span class=&#34;edu-section__icon&#34;&gt;&lt;i class=&#34;fas fa-graduation-cap&#34;&gt;&lt;/i&gt;&lt;/span&gt;&#xA;  &lt;span class=&#34;edu-section__label&#34;&gt;Education&lt;/span&gt;&#xA;&lt;/summary&gt;&#xA;&lt;div class=&#34;edu-section__content&#34;&gt;&#xA;&lt;div class=&#34;edu-item&#34;&gt;&#xA;  &lt;div class=&#34;edu-header&#34;&gt;&#xA;    &lt;h2 class=&#34;edu-degree&#34;&gt;PhD in Linguistics&lt;/h2&gt;&#xA;    &lt;span class=&#34;edu-year&#34;&gt;2021 – present&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;p class=&#34;edu-institution&#34;&gt;University of Cádiz&lt;/p&gt;&#xA;  &lt;p class=&#34;edu-thesis&#34;&gt;Doctoral thesis: &lt;em&gt;Terminología y Lingüística Computacional: Extracción semi-automática bilingüe español-inglés de los usos terminológicos de la Lingüística de corpus&lt;/em&gt;&lt;/p&gt;&#xA;  &lt;p class=&#34;edu-meta&#34;&gt;Supervisors: Dr. Miguel Casas Gómez · Dr. Mario Crespo Miguel · FPU fellow (Ministry of Universities, Spain)&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;edu-item&#34;&gt;&#xA;  &lt;div class=&#34;edu-header&#34;&gt;&#xA;    &lt;h2 class=&#34;edu-degree&#34;&gt;M.A. in International Communication&lt;/h2&gt;&#xA;    &lt;span class=&#34;edu-year&#34;&gt;2020 – 2021&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;p class=&#34;edu-institution&#34;&gt;University of Cádiz&lt;/p&gt;&#xA;  &lt;p class=&#34;edu-thesis&#34;&gt;M.A. thesis: &lt;em&gt;Un acercamiento a las Humanidades Digitales y la Estilometría: Propuesta de análisis estilométrico con Stylo (R) sobre un corpus de literatura anglófona realista y modernista&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IS-A-BUILDER</title>
+      <link>http://localhost:1313/resources-tools/is-a-builder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources-tools/is-a-builder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LingComp_QA Dataset</title>
+      <link>http://localhost:1313/resources-tools/lingcomp-qa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources-tools/lingcomp-qa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;div class=&#34;section-intro&#34;&gt;&#xA;Research projects I&#39;m currently involved in.&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;projects-gallery&#34;&gt;&#xA;&lt;div class=&#34;card&#34;&gt;&#xA;  &lt;div class=&#34;card__header&#34;&gt;&#xA;    &lt;h2 class=&#34;card__title&#34;&gt;TerlexWeb&lt;/h2&gt;&#xA;    &lt;span class=&#34;card__year&#34;&gt;2023–2027&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;p class=&#34;card__desc&#34;&gt;Aplicaciones de la lingüística digital al ámbito de la terminología: la creación de un léxico relacional bilingüe de los usos terminológicos de la semántica léxica.&lt;br&gt;&lt;em&gt;Digital linguistics applications in terminology: building a bilingual relational lexicon of terminological uses in lexical semantics.&lt;/em&gt;&lt;/p&gt;&#xA;  &lt;div class=&#34;card__tags&#34;&gt;&#xA;    &lt;span class=&#34;tag&#34;&gt;terminology&lt;/span&gt;&#xA;    &lt;span class=&#34;tag&#34;&gt;lexicology&lt;/span&gt;&#xA;    &lt;span class=&#34;tag&#34;&gt;digital humanities&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;p class=&#34;card__links&#34;&gt;&lt;a href=&#34;https://ila.uca.es/proyectos/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;More info →&lt;/a&gt;&lt;/p&gt;&#xA;  &lt;p class=&#34;card__links&#34;&gt;PI: Miguel Casas Gómez · Ministerio de Ciencia e Innovación&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;card&#34;&gt;&#xA;  &lt;div class=&#34;card__header&#34;&gt;&#xA;    &lt;h2 class=&#34;card__title&#34;&gt;ROBOT-TALK&lt;/h2&gt;&#xA;    &lt;span class=&#34;card__year&#34;&gt;2023–2026&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;p class=&#34;card__desc&#34;&gt;Reconocimiento del origen robótico de textos. Automatización de tareas y conocimiento lingüístico.&lt;br&gt;&lt;em&gt;Recognising the robotic origin of texts. Task automation and linguistic knowledge.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -6,19 +6,17 @@
   {{ $fallbackURL = .RelPermalink }}
 {{ end }}
 
-<div class="lang-float">
-  {{ range $i, $lang := $.Site.Languages }}
-    {{ if gt $i 0 }}<span class="lang-float__sep">/</span>{{ end }}
-    {{ if eq $lang.Lang $currentLang }}
-      <span class="lang-float__current">{{ $lang.LanguageName }}</span>
-    {{ else }}
-      {{ $url := $fallbackURL }}
-      {{ range $translations }}
-        {{ if eq .Language.Lang $lang.Lang }}
-          {{ $url = .RelPermalink }}
-        {{ end }}
-      {{ end }}
-      <a href="{{ $url }}" class="lang-float__link">{{ $lang.LanguageName }}</a>
-    {{ end }}
+{{ $enURL := $fallbackURL }}
+{{ $esURL := "" }}
+{{ range $translations }}
+  {{ if eq .Language.Lang "es" }}
+    {{ $esURL = .RelPermalink }}
+  {{ else if eq .Language.Lang "en" }}
+    {{ $enURL = .RelPermalink }}
   {{ end }}
+{{ end }}
+
+<div class="lang-toggle">
+  <a href="{{ $enURL }}" class="lang-toggle__option {{ if eq $currentLang "en" }}lang-toggle__option--active{{ end }}">EN</a>
+  <a href="{{ $esURL }}" class="lang-toggle__option {{ if eq $currentLang "es" }}lang-toggle__option--active{{ end }}">ES</a>
 </div>

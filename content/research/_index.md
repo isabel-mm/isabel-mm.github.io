@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Publications"
 ---
 
 Below you can find a structured overview of my academic output, including journal articles, book chapters, theses, and digital resources.

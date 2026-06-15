@@ -1,5 +1,5 @@
 ---
-title: "Investigación"
+title: "Publicaciones"
 ---
 
 A continuación encontrarás una visión estructurada de mi producción académica, incluyendo artículos en revistas, capítulos de libro, tesis y recursos digitales.
