@@ -112,18 +112,6 @@
                 href="http://localhost:1313/es/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/research/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/research/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/research/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/resources-tools/is-a-builder/</loc>
     <xhtml:link
                 rel="alternate"
@@ -170,6 +158,18 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/projects/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/research/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/research/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/resources-tools/</loc>

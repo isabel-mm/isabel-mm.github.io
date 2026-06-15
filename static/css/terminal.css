@@ -573,6 +573,8 @@ nav a[aria-current="page"] {
   border-bottom: 3px solid transparent !important;
   background: transparent !important;
   box-shadow: none !important;
+  color: var(--foreground) !important;
+  font-weight: 600 !important;
 }
 
 .navigation-menu__inner a.is-active {

@@ -37,13 +37,13 @@
   <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/header.min.5e02e767bbb1b547038405ca441a7dc890b4b474be3b9d131b2af3c5bc673ee2.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.6b542678ef39e1f7ad983c5ee7d6dba3e3e2cdce3912754c1001572f5517802f.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/main.min.32d069e2ec9a6273c94ca96b27386627ece88473e8cdf16730aa76f6b0caff25.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.606e28c87ca49ce4e3808dc2986a354c2ee9e998fe1354af745edc88aeaf8d14.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
 
   
   <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
@@ -302,17 +302,44 @@
   
     <footer class="footer">
   <div class="footer__inner">
-
-    
-      <div class="copyright">
-        <span>© 2026</span>
-    
-        <span>:: Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
-        <span>:: Theme by <a href="https://github.com/panr" target="_blank" rel="noopener">panr</a></span>
+    <div class="footer-content">
+      <p class="footer-connect">Let's connect!</p>
+      <div class="footer-socials">
+        <a href="mailto:isabel.moyano@uca.es" title="Email" class="footer-social">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/isabel-mm" target="_blank" rel="noopener" title="GitHub" class="footer-social">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/isabel-moyano-moreno-62619a1bb/" target="_blank" rel="noopener" title="LinkedIn" class="footer-social">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://orcid.org/0000-0003-4284-8897" target="_blank" rel="noopener" title="ORCID" class="footer-social">
+          <i class="fab fa-orcid"></i>
+        </a>
       </div>
-
+      <p class="footer-copyright">© 2026 Isabel Moyano-Moreno</p>
+    </div>
   </div>
 </footer>
+
+<button id="scrollToTop" class="scroll-to-top" title="Back to top">▲</button>
+
+<script>
+const scrollBtn = document.getElementById('scrollToTop');
+
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 300) {
+    scrollBtn.classList.add('show');
+  } else {
+    scrollBtn.classList.remove('show');
+  }
+});
+
+scrollBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+</script>
 
 
 
@@ -329,24 +356,17 @@
   
 
 
-<div class="lang-float">
+
+
+
   
     
-    
-      
-      
-        
-          
-        
-      
-      <a href="/tags/tool/" class="lang-float__link">EN</a>
-    
   
-    <span class="lang-float__sep">/</span>
-    
-      <span class="lang-float__current">ES</span>
-    
-  
+
+
+<div class="lang-toggle">
+  <a href="/tags/tool/" class="lang-toggle__option ">EN</a>
+  <a href="" class="lang-toggle__option lang-toggle__option--active">ES</a>
 </div>
 
 
