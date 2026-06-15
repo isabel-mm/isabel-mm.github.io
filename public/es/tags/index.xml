@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Isabel Moyano</title>
-    <link>http://localhost:1313/es/tags/</link>
+    <link>https://isabel-mm.github.io/es/tags/</link>
     <description>Recent content in Tags on Isabel Moyano</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <atom:link href="http://localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://isabel-mm.github.io/es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beginner-Friendly</title>
-      <link>http://localhost:1313/es/tags/beginner-friendly/</link>
+      <link>https://isabel-mm.github.io/es/tags/beginner-friendly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/beginner-friendly/</guid>
+      <guid>https://isabel-mm.github.io/es/tags/beginner-friendly/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/es/tags/blog/</link>
+      <link>https://isabel-mm.github.io/es/tags/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/blog/</guid>
+      <guid>https://isabel-mm.github.io/es/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Dataset</title>
-      <link>http://localhost:1313/es/tags/dataset/</link>
+      <link>https://isabel-mm.github.io/es/tags/dataset/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/dataset/</guid>
+      <guid>https://isabel-mm.github.io/es/tags/dataset/</guid>
       <description></description>
     </item>
     <item>
       <title>Divulgación</title>
-      <link>http://localhost:1313/es/tags/divulgaci%C3%B3n/</link>
+      <link>https://isabel-mm.github.io/es/tags/divulgaci%C3%B3n/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/divulgaci%C3%B3n/</guid>
+      <guid>https://isabel-mm.github.io/es/tags/divulgaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>NLP</title>
-      <link>http://localhost:1313/es/tags/nlp/</link>
+      <link>https://isabel-mm.github.io/es/tags/nlp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/nlp/</guid>
+      <guid>https://isabel-mm.github.io/es/tags/nlp/</guid>
       <description></description>
     </item>
     <item>
       <title>Teaching</title>
-      <link>http://localhost:1313/es/tags/teaching/</link>
+      <link>https://isabel-mm.github.io/es/tags/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/teaching/</guid>
+      <guid>https://isabel-mm.github.io/es/tags/teaching/</guid>
       <description></description>
     </item>
     <item>
       <title>Tool</title>
-      <link>http://localhost:1313/es/tags/tool/</link>
+      <link>https://isabel-mm.github.io/es/tags/tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/tool/</guid>
+      <guid>https://isabel-mm.github.io/es/tags/tool/</guid>
       <description></description>
     </item>
   </channel>

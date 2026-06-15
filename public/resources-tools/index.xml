@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources &amp; tools on Isabel Moyano</title>
-    <link>http://localhost:1313/resources-tools/</link>
+    <link>https://isabel-mm.github.io/resources-tools/</link>
     <description>Recent content in Resources &amp; tools on Isabel Moyano</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/resources-tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://isabel-mm.github.io/resources-tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Circuigramas</title>
-      <link>http://localhost:1313/resources-tools/circuigramas/</link>
+      <link>https://isabel-mm.github.io/resources-tools/circuigramas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources-tools/circuigramas/</guid>
+      <guid>https://isabel-mm.github.io/resources-tools/circuigramas/</guid>
       <description></description>
     </item>
     <item>
       <title>IS-A-BUILDER</title>
-      <link>http://localhost:1313/resources-tools/is-a-builder/</link>
+      <link>https://isabel-mm.github.io/resources-tools/is-a-builder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources-tools/is-a-builder/</guid>
+      <guid>https://isabel-mm.github.io/resources-tools/is-a-builder/</guid>
       <description></description>
     </item>
     <item>
       <title>LingComp_QA Dataset</title>
-      <link>http://localhost:1313/resources-tools/lingcomp-qa/</link>
+      <link>https://isabel-mm.github.io/resources-tools/lingcomp-qa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources-tools/lingcomp-qa/</guid>
+      <guid>https://isabel-mm.github.io/resources-tools/lingcomp-qa/</guid>
       <description></description>
     </item>
   </channel>

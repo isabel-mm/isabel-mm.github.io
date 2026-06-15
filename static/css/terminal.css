@@ -89,7 +89,33 @@ a {
 }
 
 .logo {
-  color: var(--accent);
+  background: transparent;
+  color: #a65ba2;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.logo svg {
+  display: block;
+  width: 22px;
+  height: 22px;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 50px;
+  margin: 0 0 4rem;
+}
+
+@media (max-width: 684px) {
+  .header {
+    justify-content: space-between;
+    margin: 0 0 2.5rem;
+  }
 }
 
 .home-text a,
@@ -423,6 +449,10 @@ body > div {
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.container {
+  border-right: none;
 }
 
 /* Remove double-padding — container already handles it */
@@ -1248,6 +1278,127 @@ h1:has(+ .projects-page),
   background: transparent !important;
   box-shadow: none !important;
   outline: none !important;
+}
+
+.navigation-menu {
+  margin: 0;
+}
+
+.navigation-menu__inner {
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1.55rem;
+  justify-content: flex-start;
+}
+
+.navigation-menu__inner > li,
+.navigation-menu__inner > li:not(:last-of-type) {
+  margin: 0;
+}
+
+.navigation-menu__home a {
+  display: flex;
+  align-items: center;
+  color: var(--accent) !important;
+}
+
+.navigation-menu__inner a,
+.navigation-menu__inner a:focus,
+.navigation-menu__inner a:focus-visible {
+  border-bottom: 0 !important;
+  color: var(--foreground) !important;
+  font-size: 0.95rem;
+  font-weight: 700 !important;
+  line-height: 1;
+  padding: 0 !important;
+  text-decoration: none;
+}
+
+.navigation-menu__inner a.is-active {
+  border-bottom: 3px solid var(--accent) !important;
+  color: var(--foreground) !important;
+  font-size: 0.95rem;
+  font-weight: 700 !important;
+  line-height: 1;
+  padding: 0 0 0.35rem !important;
+  text-decoration: none;
+}
+
+.navigation-menu__home a,
+.navigation-menu__home a:focus,
+.navigation-menu__home a:focus-visible {
+  color: var(--accent) !important;
+}
+
+.language-switcher {
+  grid-column: 3;
+  justify-self: end;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 50px;
+  padding: 0 1.35rem;
+  border: 2px solid var(--accent);
+  border-radius: 999px;
+  color: color-mix(in srgb, var(--accent) 70%, white);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.language-switcher__link {
+  color: color-mix(in srgb, var(--accent) 70%, white);
+  text-decoration: none;
+}
+
+.language-switcher__link.is-active {
+  color: var(--accent);
+}
+
+.language-switcher__separator {
+  color: color-mix(in srgb, var(--accent) 55%, white);
+}
+
+.header > .menu--mobile {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .header {
+    padding-right: 7rem;
+  }
+
+  .navigation-menu__inner {
+    gap: 1rem;
+    justify-content: flex-start;
+  }
+
+  .navigation-menu__inner a {
+    font-size: 0.88rem;
+  }
+
+  .language-switcher {
+    min-height: 42px;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 684px) {
+  .navigation-menu {
+    display: none;
+  }
+
+  .header > .menu--mobile {
+    display: flex;
+  }
+
+  .menu--mobile {
+    margin-left: auto;
+  }
+
+  .language-switcher {
+    justify-self: start;
+  }
 }
 
 /* Footer Contact Section */

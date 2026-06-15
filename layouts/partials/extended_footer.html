@@ -1,13 +1,8 @@
 {{ $currentLang := $.Site.Language.Lang }}
 {{ $translations := $.Translations }}
 
-{{ $fallbackURL := "" }}
-{{ range $.Site.Home.Translations }}
-  {{ $fallbackURL = .RelPermalink }}
-{{ end }}
-
-{{ $enURL := $fallbackURL }}
-{{ $esURL := "" }}
+{{ $enURL := cond (eq $currentLang "en") $.RelPermalink "/" }}
+{{ $esURL := cond (eq $currentLang "es") $.RelPermalink "/es/" }}
 {{ range $translations }}
   {{ if eq .Language.Lang "es" }}
     {{ $esURL = .RelPermalink }}

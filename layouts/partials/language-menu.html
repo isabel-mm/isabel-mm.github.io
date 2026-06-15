@@ -1,0 +1,13 @@
+<nav class="language-switcher" aria-label="Language selector">
+  {{ range $index, $translation := .AllTranslations }}
+    {{ if gt $index 0 }}<span class="language-switcher__separator">/</span>{{ end }}
+    <a
+      class="language-switcher__link{{ if eq $translation.Language.Lang $.Site.Language.Lang }} is-active{{ end }}"
+      href="{{ $translation.RelPermalink }}"
+      hreflang="{{ $translation.Language.Lang }}"
+      lang="{{ $translation.Language.Lang }}"
+    >
+      {{ $translation.Language.LanguageName }}
+    </a>
+  {{ end }}
+</nav>

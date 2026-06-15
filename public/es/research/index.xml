@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publicaciones on Isabel Moyano</title>
-    <link>http://localhost:1313/es/research/</link>
+    <link>https://isabel-mm.github.io/es/research/</link>
     <description>Recent content in Publicaciones on Isabel Moyano</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <atom:link href="http://localhost:1313/es/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://isabel-mm.github.io/es/research/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
