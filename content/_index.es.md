@@ -7,7 +7,7 @@ title: "Inicio"
 
 ## Sobre mí
 
-Soy investigadora predoctoral (FPU21/03261) en Lingüística General en la [Universidad de Cádiz](https://www.uca.es), desarrollando mi tesis doctoral en terminología computacional y lingüística de corpus. Estoy adscrita al [grupo de investigación Semaínein](https://www.uca.es) (HUM-147) y al Laboratorio de Lingüística Computacional y Digital del [Instituto de Lingüística Aplicada](https://ila.uca.es) (ILA).
+Isabel Moyano Moreno es profesora sustituta interina (PSI) en el Área de Lingüística General de la [Universidad de Cádiz](https://www.uca.es). Inició su trayectoria investigadora como investigadora predoctoral FPU (FPU21/03261) en el Departamento de Filología. Está adscrita al grupo de investigación [Semaínein](https://www.uca.es) (HUM-147) y al Laboratorio de Lingüística Computacional y Digital del [Instituto Universitario de Investigación en Lingüística Aplicada](https://ila.uca.es) (ILA).
 
 Tengo un doble grado en Lingüística y Lenguas Aplicadas, y en Estudios Ingleses (UCA, 2020), y un máster en Comunicación Internacional (UCA, 2021).
 

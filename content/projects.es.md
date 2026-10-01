@@ -11,6 +11,20 @@ Proyectos de investigación en los que participo actualmente.
 
 <div class="card">
   <div class="card__header">
+    <h2 class="card__title">AUTOR-IA</h2>
+    <span class="card__year">2026–2029</span>
+  </div>
+  <p class="card__desc">Autoría en textos humanos de origen robótico: identificación y análisis.</p>
+  <div class="card__tags">
+    <span class="tag">authorship</span>
+    <span class="tag">stylometry</span>
+    <span class="tag">AI detection</span>
+  </div>
+  <p class="card__links">IPs: Ana María Fernández-Pampillón Cesteros & Marianela Fernández Trinidad · Ministerio de Ciencia e Innovación</p>
+</div>
+
+<div class="card">
+  <div class="card__header">
     <h2 class="card__title">TerlexWeb</h2>
     <span class="card__year">2023–2027</span>
   </div>

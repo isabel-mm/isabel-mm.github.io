@@ -7,7 +7,7 @@ title: "Home"
 
 ## About me
 
-I'm a predoctoral researcher (FPU21/03261) in General Linguistics at the [University of Cádiz](https://www.uca.es), developing my doctoral research in computational terminology and corpus linguistics. I'm affiliated with the [Semaínein research group](https://www.uca.es) (HUM-147) and the Computational and Digital Linguistics Lab at the [Institute for Applied Linguistics](https://ila.uca.es) (ILA).
+Isabel Moyano Moreno is a substitute lecturer in the General Linguistics area at the [University of Cádiz](https://www.uca.es). She began her research career as a predoctoral FPU researcher (FPU21/03261) in the Department of Philology. She is affiliated with the [Semaínein research group](https://www.uca.es) (HUM-147) and the Computational and Digital Linguistics Lab at the [University Institute for Research in Applied Linguistics](https://ila.uca.es) (ILA).
 
 I hold dual degrees in Linguistics and Applied Languages, and in English Studies (UCA, 2020), and a Master's in International Communication (UCA, 2021).
 
