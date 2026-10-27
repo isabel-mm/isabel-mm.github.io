@@ -2,86 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Isabel Moyano</title>
-    <link>http://localhost:1314/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Isabel Moyano</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beginner-Friendly</title>
-      <link>http://localhost:1314/tags/beginner-friendly/</link>
+      <link>http://localhost:1313/tags/beginner-friendly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/tags/beginner-friendly/</guid>
+      <guid>http://localhost:1313/tags/beginner-friendly/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1314/tags/blog/</link>
+      <link>http://localhost:1313/tags/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/tags/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Computational Linguistics</title>
-      <link>http://localhost:1314/tags/computational-linguistics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/tags/computational-linguistics/</guid>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Corpus Linguistics</title>
-      <link>http://localhost:1314/tags/corpus-linguistics/</link>
+      <link>http://localhost:1313/tags/corpus-linguistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/tags/corpus-linguistics/</guid>
+      <guid>http://localhost:1313/tags/corpus-linguistics/</guid>
       <description></description>
     </item>
     <item>
       <title>Dataset</title>
-      <link>http://localhost:1314/tags/dataset/</link>
+      <link>http://localhost:1313/tags/dataset/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/tags/dataset/</guid>
+      <guid>http://localhost:1313/tags/dataset/</guid>
       <description></description>
     </item>
     <item>
       <title>Divulgation</title>
-      <link>http://localhost:1314/tags/divulgation/</link>
+      <link>http://localhost:1313/tags/divulgation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/tags/divulgation/</guid>
+      <guid>http://localhost:1313/tags/divulgation/</guid>
       <description></description>
     </item>
     <item>
       <title>NLP</title>
-      <link>http://localhost:1314/tags/nlp/</link>
+      <link>http://localhost:1313/tags/nlp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/tags/nlp/</guid>
+      <guid>http://localhost:1313/tags/nlp/</guid>
       <description></description>
     </item>
     <item>
       <title>Outreach</title>
-      <link>http://localhost:1314/tags/outreach/</link>
+      <link>http://localhost:1313/tags/outreach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/tags/outreach/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Resource</title>
-      <link>http://localhost:1314/tags/resource/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/tags/resource/</guid>
+      <guid>http://localhost:1313/tags/outreach/</guid>
       <description></description>
     </item>
     <item>
       <title>Teaching</title>
-      <link>http://localhost:1314/tags/teaching/</link>
+      <link>http://localhost:1313/tags/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/tags/teaching/</guid>
+      <guid>http://localhost:1313/tags/teaching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terminology</title>
+      <link>http://localhost:1313/tags/terminology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/terminology/</guid>
       <description></description>
     </item>
     <item>
       <title>Tool</title>
-      <link>http://localhost:1314/tags/tool/</link>
+      <link>http://localhost:1313/tags/tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/tags/tool/</guid>
+      <guid>http://localhost:1313/tags/tool/</guid>
       <description></description>
     </item>
   </channel>

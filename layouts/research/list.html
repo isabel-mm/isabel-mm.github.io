@@ -47,10 +47,10 @@
 
           <div class="pub-venue">
             {{ .venue }}
-            {{ with .volume }}, <strong>{{ . }}</strong>{{ end }}
-            {{ with .number }} ({{ . }}){{ end }}
-            {{ with .pages }}, {{ . }}{{ end }}
-            {{ with .publisher }} · {{ . }}{{ end }}
+            {{- with .volume }}, {{ . }}{{ end }}
+            {{- with .number }} ({{ . }}){{ end }}
+            {{- with .pages }}, {{ . }}{{ end }}
+            {{- with .publisher }} · {{ . }}{{ end }}
           </div>
 
           {{ with .tags }}

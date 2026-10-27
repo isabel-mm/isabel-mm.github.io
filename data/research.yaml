@@ -10,7 +10,7 @@ sections:
     authors: Moyano Moreno, Isabel
     title: 'Defining the Boundaries of Specialised Language: Inter-Annotator (Dis)Agreement in Terminological Annotation'
     venue: 'Revista de Lenguas para Fines Específicos'
-    issue: '33'
+    volume: '33'
     number: 'TBD'
     pages: TBD
     tags:
@@ -24,9 +24,6 @@ sections:
     authors: Bernal Ortiz, Francisco; Moyano Moreno, Isabel; Crespo Miguel, Mario
     title: 'Machine–Generated vs. Human Texts: A Hybrid Approach to Forensic Feature Based Text Classification'
     venue: 'International Journal of Interactive Multimedia and Artificial Intelligence'
-    issue: 'TBD'
-    number: 'TBD'
-    pages: TBD
     tags:
     - Stylometry
     - Forensic Linguistics
@@ -38,7 +35,7 @@ sections:
     authors: Moyano Moreno, Isabel
     title: 'Extracción automática de terminología lingüística basada en un modelo de Reconocimiento de Entidades Nombradas (NER)'
     venue: 'RILCE: Revista de Filología Hispánica'
-    issue: '42'
+    volume: '42'
     number: '3'
     pages: TBD
     tags:
@@ -46,13 +43,26 @@ sections:
     - Computational Linguistics
     - Named Entity Recognition
 
+  - id: moyano2026linguamatica
+    type: paper
+    year: 2026
+    authors: Moyano Moreno, Isabel
+    title: 'Las leyes estadísticas del lenguaje como marcador de estilo para la detección de textos robóticos en español'
+    venue: 'Linguamatica'
+    volume: '18'
+    number: '2'
+    tags:
+    - Stylometry
+    - Quantitative Linguistics
+    - Machine-Generated Text Detection
+
   - id: moyano2023estilometria
     type: paper
     year: 2023
     authors: Moyano Moreno, Isabel
     title: 'La estilometría como técnica de análisis lingüístico-cuantitativo: a propósito del uso terminológico de estilo'
     venue: Pragmalingüística
-    issue: '31'
+    number: '31'
     pages: 339–361
     doi: 10.25267/Pragmalinguistica.2023.i31.15
     url: https://doi.org/10.25267/Pragmalinguistica.2023.i31.15
@@ -148,7 +158,7 @@ sections:
     authors: Moyano Moreno, Isabel
     title: 'Reseña del libro: Serrano Zapata, M. (ed.) (2024). Corpus lingüísticos y enseñanza de lenguas'
     venue: 'ELUA: Estudios de Lingüística. Universidad de Alicante'
-    issue: '45'
+    number: '45'
     pages: 353–359
     doi: 10.14198/ELUA.30401
     url: https://doi.org/10.14198/ELUA.30401
@@ -160,7 +170,7 @@ sections:
     title: 'Reseña de Calvo Tello, J. (2021): The Novel in the Spanish Silver Age. A Digital Analysis of Genre Using Machine Learning. Bielefeld: Bielefeld University Press, 470 pp. ISBN: 978-3-8376-5925-2'
     venue: Philologia Hispalensis
     volume: '38'
-    issue: '2'
+    number: '2'
     pages: 249–253
     url: https://hdl.handle.net/11441/174463
 
@@ -170,7 +180,7 @@ sections:
     authors: Moyano Moreno, Isabel
     title: 'Reseña de L''Homme, M. C. (2020): Lexical semantics for terminology: An introduction'
     venue: Lynx
-    issue: '21'
+    number: '21'
 
 
 - id: theses
